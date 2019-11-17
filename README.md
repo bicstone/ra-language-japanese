@@ -17,7 +17,7 @@ npm install --save @bicstone/ra-language-japanese
 ### v3
 
 ```js
-import japaneseMessages from 'ra-language-japanese';
+import japaneseMessages from '@bicstone/ra-language-japanese';
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 
 const messages = {
@@ -33,7 +33,7 @@ const i18nProvider = polyglotI18nProvider(locale => messages[locale]);
 ### v2
 
 ```js
-import englishMessages from 'ra-language-japanese';
+import japaneseMessages from '@bicstone/ra-language-japanese';
 
 const messages = {
     'ja': japaneseMessages,
