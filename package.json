@@ -3,12 +3,16 @@
   "description": "Japanese messages for react-admin",
   "version": "3.0.0",
   "author": "Takanori Oishi",
+  "test": "jest",
   "bugs": {
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "@types/node": "^12.12.8",
+    "jest": "^24.9.0",
     "prettier": "^1.19.1",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.7.2"
   },
   "files": [
@@ -26,6 +30,23 @@
     "translation"
   ],
   "license": "MIT",
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/index.test.ts"
+    ]
+  },
   "main": "lib/index.js",
   "module": "esm/index.js",
   "repository": {
@@ -33,8 +54,9 @@
     "url": "git+https://github.com/bicstone/ra-language-japanese.git"
   },
   "scripts": {
-    "build": "npm run format && npm run build-cjs && npm run build-esm",
+    "test": "jest",
     "format": "prettier --write ./src/index.ts",
+    "build": "npm run format && npm run build-cjs && npm run build-esm",
     "build-cjs": "tsc ./src/index.ts -d --outDir lib",
     "build-esm": "tsc ./src/index.ts -d --outDir esm --module es2015"
   },
