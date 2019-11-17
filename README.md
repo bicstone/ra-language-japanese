@@ -2,6 +2,10 @@
 
 Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
 
+直訳せず、読みさすさとシンプルさを優先した意訳をしています。
+
+翻訳の提案がございましたら、お気軽に issue か Pull request をください :bow:
+
 ## Installation
 
 ```sh

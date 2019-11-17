@@ -78,12 +78,12 @@ const messages = {
     navigation: {
       no_results: "結果が見つかりませんでした",
       no_more_results:
-        "ページ番号 %{page}は最大のページ数を超えています。前のページに戻ってください",
+        "ページ番号 %{page} は最大のページ数を超えています。前のページに戻ってください",
       page_out_of_boundaries:
         "ページ番号 %{page} は最大のページ数を超えています",
       page_out_from_end: "最大のページ数より後に移動できません",
       page_out_from_begin: "1 ページより前に移動できません",
-      page_range_info: "%{total}件中 %{offsetBegin}-%{offsetEnd}",
+      page_range_info: "%{offsetBegin}-%{offsetEnd} / %{total}",
       page_rows_per_page: "表示件数:",
       next: "次",
       prev: "前"
