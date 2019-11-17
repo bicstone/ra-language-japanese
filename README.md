@@ -5,7 +5,7 @@ Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
 ## Installation
 
 ```sh
-npm install --save ra-language-japanese
+npm install --save @bicstone/ra-language-japanese
 ```
 
 ## Usage
