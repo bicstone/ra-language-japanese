@@ -18,7 +18,6 @@
     "LICENSE",
     "*.md",
     "lib",
-    "esm",
     "src"
   ],
   "homepage": "https://github.com/bicstone/ra-language-japanese/",
@@ -47,15 +46,12 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "module": "esm/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bicstone/ra-language-japanese.git"
   },
   "scripts": {
-    "build": "npm run format && npm run build-cjs && npm run build-esm",
-    "build-cjs": "tsc ./src/index.ts -d --outDir lib",
-    "build-esm": "tsc ./src/index.ts -d --outDir esm --module es2015",
+    "build": "tsc ./src/index.ts -d --outDir lib",
     "format": "prettier --write ./src/index.ts",
     "test": "jest"
   },
