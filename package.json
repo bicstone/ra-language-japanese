@@ -1,0 +1,42 @@
+{
+  "name": "ra-language-japanese",
+  "description": "Japanese messages for react-admin",
+  "version": "3.0.0",
+  "author": "Takanori Oishi",
+  "bugs": {
+    "url": "https://github.com/bicstone/ra-language-japanese/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.8",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  },
+  "files": [
+    "LICENSE",
+    "*.md",
+    "lib",
+    "esm",
+    "src"
+  ],
+  "homepage": "https://github.com/bicstone/ra-language-japanese/",
+  "keywords": [
+    "react",
+    "react-admin",
+    "admin-on-rest",
+    "translation"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bicstone/ra-language-japanese.git"
+  },
+  "scripts": {
+    "build": "npm run format && npm run build-cjs && npm run build-esm",
+    "format": "prettier --write ./src/index.ts",
+    "build-cjs": "tsc ./src/index.ts -d --outDir lib",
+    "build-esm": "tsc ./src/index.ts -d --outDir esm --module es2015"
+  },
+  "sideEffects": false
+}
