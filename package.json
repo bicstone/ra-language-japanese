@@ -1,5 +1,5 @@
 {
-  "name": "ra-language-japanese",
+  "name": "@bicstone/ra-language-japanese",
   "description": "Japanese messages for react-admin",
   "version": "3.0.0-beta.1",
   "author": "Takanori Oishi",
