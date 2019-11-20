@@ -45,26 +45,24 @@ const i18nProvider = locale => messages[locale];
 </Admin>
 ```
 
-### Override
+### Mixing Domain Translations
 
-```jsx
-const messages = {
-    ja: {
-        ...messageJapanese,
-        ra: {
-            notification: {
-                http_error: "サーバーエラーが発生しました"
-            }
-        },
-        resources:{
-            users: {
-                name: "ユーザー",
-                fields: {
-                    email: "メールアドレス",
-                    password: "パスワード"
-                }
+```js
+const japaneseDomainMessages = {
+    resources:{
+        users: {
+            name: "ユーザー",
+            fields: {
+                email: "メールアドレス",
+                password: "パスワード"
             }
         }
+    }
+}
+const messages = {
+    ja: {
+        ...japaneseMessages,
+        ...japaneseDomainMessages
     }
 };
 ```
