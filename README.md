@@ -21,7 +21,7 @@ import japaneseMessages from '@bicstone/ra-language-japanese';
 import polyglotI18nProvider from 'ra-i18n-polyglot';
 
 const messages = {
-    'ja': japaneseMessages,
+    ja: japaneseMessages
 };
 const i18nProvider = polyglotI18nProvider(locale => messages[locale]);
 
@@ -36,13 +36,37 @@ const i18nProvider = polyglotI18nProvider(locale => messages[locale]);
 import japaneseMessages from '@bicstone/ra-language-japanese';
 
 const messages = {
-    'ja': japaneseMessages,
+    ja: japaneseMessages
 };
 const i18nProvider = locale => messages[locale];
 
 <Admin locale="ja" i18nProvider={i18nProvider}>
   ...
 </Admin>
+```
+
+### Override
+
+```jsx
+const messages = {
+    ja: {
+        ...messageJapanese,
+        ra: {
+            notification: {
+                http_error: "サーバーエラーが発生しました"
+            }
+        },
+        resources:{
+            users: {
+                name: "ユーザー",
+                fields: {
+                    email: "メールアドレス",
+                    password: "パスワード"
+                }
+            }
+        }
+    }
+};
 ```
 
 ## License
