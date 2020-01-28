@@ -56,6 +56,10 @@ const messages = {
         all_missing: "データが利用できなくなりました",
         many_missing: "選択したデータが利用できなくなりました",
         single_missing: "選択したデータが利用できなくなりました"
+      },
+      password: {
+        toggle_visible: "非表示",
+        toggle_hidden: "表示"
       }
     },
     message: {

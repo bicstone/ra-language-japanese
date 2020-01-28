@@ -54,6 +54,10 @@ declare const messages: {
                 many_missing: string;
                 single_missing: string;
             };
+            password: {
+                toggle_visible: string;
+                toggle_hidden: string;
+            };
         };
         message: {
             about: string;
