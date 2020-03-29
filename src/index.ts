@@ -23,12 +23,12 @@ const messages = {
       sort: "並び替え",
       undo: "元に戻す",
       expand: "開く",
-      close: "閉じる"
+      close: "閉じる",
     },
     boolean: {
       true: "はい",
       false: "いいえ",
-      null: "未選択"
+      null: "未選択",
     },
     page: {
       create: "%{name} を作成",
@@ -38,29 +38,31 @@ const messages = {
       list: "%{name}",
       loading: "読込中",
       not_found: "見つかりませんでした",
-      show: "%{name} #%{id}"
+      show: "%{name} #%{id}",
+      empty: "%{name}はありません",
+      invite: "作成しますか？",
     },
     input: {
       file: {
         upload_several:
           "アップロードするファイルをドロップ、または選択してください",
         upload_single:
-          "アップロードするファイルをドロップ、または選択してください"
+          "アップロードするファイルをドロップ、または選択してください",
       },
       image: {
         upload_several:
           "アップロードする画像をドロップ、または選択してください",
-        upload_single: "アップロードする画像をドロップ、または選択してください"
+        upload_single: "アップロードする画像をドロップ、または選択してください",
       },
       references: {
         all_missing: "データが利用できなくなりました",
         many_missing: "選択したデータが利用できなくなりました",
-        single_missing: "選択したデータが利用できなくなりました"
+        single_missing: "選択したデータが利用できなくなりました",
       },
       password: {
         toggle_visible: "非表示",
-        toggle_hidden: "表示"
-      }
+        toggle_hidden: "表示",
+      },
     },
     message: {
       about: "詳細",
@@ -77,7 +79,7 @@ const messages = {
       loading: "読み込み中です。しばらくお待ちください",
       no: "いいえ",
       not_found: "間違ったURLを入力したか、間違ったリンクを辿りました",
-      yes: "はい"
+      yes: "はい",
     },
     navigation: {
       no_results: "結果が見つかりませんでした",
@@ -90,7 +92,7 @@ const messages = {
       page_range_info: "%{offsetBegin}-%{offsetEnd} / %{total}",
       page_rows_per_page: "表示件数:",
       next: "次",
-      prev: "前"
+      prev: "前",
     },
     auth: {
       auth_check_error: "認証に失敗しました。再度ログインしてください",
@@ -99,7 +101,7 @@ const messages = {
       password: "パスワード",
       sign_in: "ログイン",
       sign_in_error: "認証に失敗しました。入力を確認してください",
-      logout: "ログアウト"
+      logout: "ログアウト",
     },
     notification: {
       updated: "更新しました |||| %{smart_count} 件更新しました",
@@ -112,7 +114,7 @@ const messages = {
         "dataProviderエラー。詳細はコンソールを確認してください",
       i18n_error: "翻訳ファイルが読み込めませんでした",
       canceled: "元に戻しました",
-      logged_out: "認証に失敗しました。再度ログインしてください"
+      logged_out: "認証に失敗しました。再度ログインしてください",
     },
     validation: {
       required: "必須",
@@ -123,9 +125,9 @@ const messages = {
       number: "数字である必要があります",
       email: "メールアドレスである必要があります",
       oneOf: "次のいずれかである必要があります: %{options}",
-      regex: "次の正規表現形式にする必要があります: %{pattern}"
-    }
-  }
+      regex: "次の正規表現形式にする必要があります: %{pattern}",
+    },
+  },
 };
 
 export default messages;

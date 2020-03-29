@@ -39,6 +39,8 @@ declare const messages: {
             loading: string;
             not_found: string;
             show: string;
+            empty: string;
+            invite: string;
         };
         input: {
             file: {
