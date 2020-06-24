@@ -1,18 +1,17 @@
 {
   "name": "@bicstone/ra-language-japanese",
   "description": "Japanese messages for react-admin",
-  "version": "3.3.3",
+  "version": "3.6.1",
   "author": "Takanori Oishi",
   "bugs": {
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
   },
+  "dependencies": {
+    "ra-core": "^3.6.2"
+  },
   "devDependencies": {
-    "@types/jest": "^25.1.4",
-    "@types/node": "^13.9.5",
-    "jest": "^25.2.3",
-    "prettier": "^2.0.2",
-    "ts-jest": "^25.2.1",
-    "typescript": "^3.8.3"
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
   },
   "files": [
     "LICENSE",
@@ -21,23 +20,6 @@
     "src"
   ],
   "homepage": "https://github.com/bicstone/ra-language-japanese/",
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "ts"
-    ],
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "globals": {
-      "ts-jest": {
-        "tsConfig": "tsconfig.json"
-      }
-    },
-    "testMatch": [
-      "**/index.test.ts"
-    ]
-  },
   "keywords": [
     "admin-on-rest",
     "react",
@@ -51,10 +33,7 @@
     "url": "git+https://github.com/bicstone/ra-language-japanese.git"
   },
   "scripts": {
-    "build": "tsc ./src/index.ts -d --outDir lib",
-    "format": "prettier --write ./src/index.ts",
-    "test": "jest"
+    "build": "prettier --write ./src/index.ts && tsc ./src/index.ts -d -outDir lib"
   },
-  "sideEffects": false,
-  "test": "jest"
+  "sideEffects": false
 }

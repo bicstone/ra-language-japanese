@@ -1,4 +1,6 @@
-const messages = {
+import { TranslationMessages } from "../node_modules/ra-core/src/i18n/TranslationMessages";
+
+const messages: TranslationMessages = {
   ra: {
     action: {
       add_filter: "検索条件",
@@ -24,6 +26,8 @@ const messages = {
       undo: "元に戻す",
       expand: "開く",
       close: "閉じる",
+      open_menu: "開く",
+      close_menu: "閉じる",
     },
     boolean: {
       true: "はい",
@@ -80,6 +84,7 @@ const messages = {
       no: "いいえ",
       not_found: "間違ったURLを入力したか、間違ったリンクを辿りました",
       yes: "はい",
+      unsaved_changes: "選択解除",
     },
     navigation: {
       no_results: "結果が見つかりませんでした",

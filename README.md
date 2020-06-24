@@ -2,17 +2,25 @@
 
 Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
 
-直訳せず、読みさすさとシンプルさを優先した意訳をしています。
+react-adminの日本語翻訳です。  
+直訳せず、読みさすさとシンプルさを優先した意訳をしています。  
+翻訳の提案がございましたら、お気軽に issue 頂ければ幸いです。
 
-翻訳の提案がございましたら、お気軽に issue か Pull request をください :bow:
+## インストール
 
-## Installation
+### yarn
 
 ```sh
-npm install --save @bicstone/ra-language-japanese
+yarn add @bicstone/ra-language-japanese
 ```
 
-## Usage
+### npm
+
+```sh
+npm install @bicstone/ra-language-japanese
+```
+
+## 使用方法
 
 ### v3
 
@@ -45,7 +53,7 @@ const i18nProvider = locale => messages[locale];
 </Admin>
 ```
 
-### Mixing Domain Translations
+### オリジナルの翻訳と混ぜる
 
 ```js
 const japaneseDomainMessages = {
@@ -67,6 +75,6 @@ const messages = {
 };
 ```
 
-## License
+## ライセンス
 
-This translation is licensed under the MIT License.
+MIT License
