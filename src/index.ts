@@ -1,6 +1,6 @@
-import { TranslationMessages } from "../node_modules/ra-core/src/i18n/TranslationMessages";
+import englishMessages from "ra-language-english";
 
-const messages: TranslationMessages = {
+const messages: typeof englishMessages = {
   ra: {
     action: {
       add_filter: "検索条件",
@@ -85,7 +85,8 @@ const messages: TranslationMessages = {
       no: "いいえ",
       not_found: "間違ったURLを入力したか、間違ったリンクを辿りました",
       yes: "はい",
-      unsaved_changes: "選択解除",
+      unsaved_changes:
+        "行った変更が保存されていません。このページから移動してよろしいですか？",
     },
     navigation: {
       no_results: "結果が見つかりませんでした",

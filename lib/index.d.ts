@@ -1,3 +1,3 @@
-import { TranslationMessages } from "../node_modules/ra-core/src/i18n/TranslationMessages";
-declare const messages: TranslationMessages;
+import englishMessages from "ra-language-english";
+declare const messages: typeof englishMessages;
 export default messages;
