@@ -24,6 +24,7 @@ const messages: TranslationMessages = {
       show: "詳細",
       sort: "並び替え",
       undo: "元に戻す",
+      unselect: "選択解除",
       expand: "開く",
       close: "閉じる",
       open_menu: "開く",
