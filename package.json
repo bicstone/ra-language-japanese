@@ -1,17 +1,18 @@
 {
   "name": "@bicstone/ra-language-japanese",
   "description": "Japanese messages for react-admin",
-  "version": "3.6.2.1",
+  "version": "3.8.0",
   "author": "Takanori Oishi",
   "bugs": {
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
   },
   "dependencies": {
-    "ra-language-english": "^3.6.2"
+    "ra-language-english": "^3.8.0"
   },
   "devDependencies": {
+    "npm-check-updates": "^7.1.1",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.7"
   },
   "files": [
     "LICENSE",
@@ -33,7 +34,8 @@
     "url": "git+https://github.com/bicstone/ra-language-japanese.git"
   },
   "scripts": {
-    "build": "prettier --write ./src/**/* && tsc"
+    "build": "prettier --write ./src/**/* && tsc",
+    "up": "ncu -u && yarn install"
   },
   "sideEffects": false
 }

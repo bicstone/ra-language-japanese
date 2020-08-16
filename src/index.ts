@@ -110,6 +110,11 @@ const messages: typeof englishMessages = {
       sign_in_error: "認証に失敗しました。入力を確認してください",
       logout: "ログアウト",
     },
+    sort: {
+      sort_by: "%{field}を%{order}で並び替え中",
+      ASC: "昇順",
+      DESC: "降順",
+    },
     notification: {
       updated: "更新しました |||| %{smart_count} 件更新しました",
       created: "作成しました",
