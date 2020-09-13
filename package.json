@@ -7,12 +7,11 @@
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
   },
   "dependencies": {
-    "ra-language-english": "^3.8.0"
+    "ra-language-english": "^3.8.4"
   },
   "devDependencies": {
-    "npm-check-updates": "^7.1.1",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
   },
   "files": [
     "LICENSE",

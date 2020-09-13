@@ -9,7 +9,7 @@
 
 # 翻訳の更新(メモ)
 
-1. `yarn up` で依存関係を最新にする
+1. dependabotが自動的に依存関係( `ra-language-english` )を最新にする
 1. `tsc` で型定義エラーがあれば、React-admin側で更新されている
 1. 型定義エラーを参考に、 `/src/index.tx` 翻訳を更新する
 1. `yarn build` でフォーマットとコンパイルする
