@@ -15,3 +15,5 @@ updates:
       - 'bicstone'
     reviewers:
       - 'bicstone'
+    allow:
+      - dependency-name: "ra-language-english"
