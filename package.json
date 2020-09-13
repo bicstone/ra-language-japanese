@@ -10,7 +10,7 @@
     "ra-language-english": "^3.8.0"
   },
   "devDependencies": {
-    "npm-check-updates": "^7.1.1",
+    "npm-check-updates": "^9.0.1",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   },
