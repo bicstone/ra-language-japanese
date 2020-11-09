@@ -1,5 +1,7 @@
 # Japanese Messages for React-Admin
 
+![GitHub Actions Build Status](https://github.com/bicstone/ra-language-japanese/workflows/Node.js%20CI/badge.svg) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
+
 Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
 
 react-adminの日本語翻訳です。  
