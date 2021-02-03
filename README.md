@@ -34,7 +34,7 @@ import polyglotI18nProvider from 'ra-i18n-polyglot';
 const messages = {
     ja: japaneseMessages
 };
-const i18nProvider = polyglotI18nProvider(locale => messages[locale], "ja");
+const i18nProvider = polyglotI18nProvider(locale => messages[locale], 'ja');
 
 <Admin i18nProvider={i18nProvider}>
   ...
