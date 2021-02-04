@@ -100,6 +100,7 @@ const messages: typeof englishMessages = {
       page_rows_per_page: "表示件数:",
       next: "次",
       prev: "前",
+      skip_nav: "コンテンツにスキップ",
     },
     auth: {
       auth_check_error: "認証に失敗しました。再度ログインしてください",
