@@ -11,16 +11,18 @@ react-adminの日本語翻訳です。
 
 ## インストール
 
+`react-admin@>=2.0.0-alpha1` で使用可能です。最新版をインストールしてください。
+
 ### yarn
 
 ```sh
-yarn add @bicstone/ra-language-japanese
+yarn add @bicstone/ra-language-japanese@latest
 ```
 
 ### npm
 
 ```sh
-npm install @bicstone/ra-language-japanese
+npm install @bicstone/ra-language-japanese@latest
 ```
 
 ## 使用方法
