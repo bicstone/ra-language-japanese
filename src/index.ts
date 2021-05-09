@@ -12,6 +12,7 @@ const messages: typeof englishMessages = {
       clone: "複製",
       confirm: "確認",
       create: "作成",
+      create_item: "%{item}を作成",
       delete: "削除",
       edit: "編集",
       export: "出力",
