@@ -72,10 +72,10 @@ query-string@^5.1.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-ra-core@^3.15.2:
-  version "3.15.2"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.15.2.tgz#a1e66d50d028554e4cf6562ad132480837d64f59"
-  integrity sha512-Ba7+j/g3deKj7AgFn0BItC3jDfmpwzojG+v2QlJKx5k9WOf6yu3ZRjBbArn3RVziap4WYmsDYCQPxORC/wWIHA==
+ra-core@^3.16.1:
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.16.1.tgz#784cc3c4a37b2d756fef359c49f991ba9c9af274"
+  integrity sha512-taS6SbQYOjzsCbCIhoXyvmilU45iCnmfSyO1YzHL4iDySIBpa2IVM1O1iilzEvO/5vnegNKhU2zevOlRALmUfw==
   dependencies:
     classnames "~2.2.5"
     date-fns "^1.29.0"
@@ -87,11 +87,11 @@ ra-core@^3.15.2:
     reselect "~3.0.0"
 
 ra-language-english@>=2.0.0-alpha1:
-  version "3.15.2"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-3.15.2.tgz#1eea58e4c8009616c77e4e21b0fe2fae54159f38"
-  integrity sha512-jFSqF8Qsf0ENraw44P5pBYNHXxyPsA48ACbTR95Ds0az2s7BAHRxLL6g57PbCaad5ND6Jl6phjJqbfQt0DizQg==
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-3.16.1.tgz#89b88e511a2ecf922d6070cf227456c949712177"
+  integrity sha512-Jcmaxj64+hxM55hdADsY7KjzVvLkKBSfSyCBEWdyBFy328hM0rCTbxL9YMYokx0jOgZbmS7W+t68FfsPRu6SRg==
   dependencies:
-    ra-core "^3.15.2"
+    ra-core "^3.16.1"
 
 react-is@^16.8.1:
   version "16.13.1"
