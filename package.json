@@ -1,7 +1,7 @@
 {
   "name": "@bicstone/ra-language-japanese",
   "description": "Japanese messages for react-admin",
-  "version": "3.15.0",
+  "version": "3.16.0",
   "author": "Takanori Oishi",
   "bugs": {
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
@@ -33,7 +33,7 @@
     "url": "git+https://github.com/bicstone/ra-language-japanese.git"
   },
   "scripts": {
-    "build": "prettier --write ./src/**/* && tsc",
+    "build": "prettier --write ./src/**/* && tsc --newLine LF",
     "up": "ncu -u && yarn install"
   },
   "sideEffects": false
