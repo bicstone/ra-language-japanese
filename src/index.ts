@@ -1,6 +1,6 @@
-import englishMessages from "ra-language-english";
+import { TranslationMessages } from "ra-core";
 
-const messages: typeof englishMessages = {
+const messages: Required<TranslationMessages> = {
   ra: {
     action: {
       add_filter: "検索条件",
@@ -133,6 +133,7 @@ const messages: typeof englishMessages = {
       i18n_error: "翻訳ファイルが読み込めませんでした",
       canceled: "元に戻しました",
       logged_out: "認証に失敗しました。再度ログインしてください",
+      not_authorized: "このページにアクセスする権限がありません",
     },
     validation: {
       required: "必須",

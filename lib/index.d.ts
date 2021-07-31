@@ -1,3 +1,3 @@
-import englishMessages from "ra-language-english";
-declare const messages: typeof englishMessages;
+import { TranslationMessages } from "ra-core";
+declare const messages: Required<TranslationMessages>;
 export default messages;
