@@ -72,7 +72,7 @@ query-string@^5.1.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-ra-core@^3.17.0:
+ra-core@>=2.0.0-alpha1:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.17.0.tgz#2a6631a172611b562145f182bb882918deb28ac9"
   integrity sha512-nwlOndh+eGJEz2Cn0McNbtXg+pulG6C2yT4mKC+lp523u820Sqn2eStn7IKtnfIvClXs/z8Ttyh9fR4sVlFrGw==
@@ -85,13 +85,6 @@ ra-core@^3.17.0:
     prop-types "^15.6.1"
     query-string "^5.1.1"
     reselect "~3.0.0"
-
-ra-language-english@>=2.0.0-alpha1:
-  version "3.17.0"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-3.17.0.tgz#8eb0f1fc480949430cf1f86164cd6bf31ec0e0e4"
-  integrity sha512-pj7H5S6jcIPMtSZnpl1PceoD53XRcE2Vmf3Ig099IH3SDXU78oCqp9BWFFGfYFUCb6s6P4ihaKGZPY/E/EM6lQ==
-  dependencies:
-    ra-core "^3.17.0"
 
 react-is@^16.8.1:
   version "16.13.1"
