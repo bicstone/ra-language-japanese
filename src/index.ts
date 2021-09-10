@@ -31,6 +31,8 @@ const messages: Required<TranslationMessages> = {
       open_menu: "開く",
       close_menu: "閉じる",
       update: "更新",
+      move_up: "上へ移動",
+      move_down: "下へ移動",
     },
     boolean: {
       true: "はい",
