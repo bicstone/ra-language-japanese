@@ -73,9 +73,9 @@ query-string@^5.1.1:
     strict-uri-encode "^1.0.0"
 
 ra-core@>=2.0.0-alpha1:
-  version "3.18.3"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.18.3.tgz#9a581de5d564895f06718d4d94f3a6a216c58abb"
-  integrity sha512-DRIsbf1G7Zvvzs55TiMJvZ56psDk5Syj/PxPBhmMmhVoSavZ/i23J+ObKrGUKWNk4cwNg3IZR8IxZCGyMEe1Qg==
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.19.0.tgz#9aa18a6ad794454b9fc38f0413d5d4c68e306d60"
+  integrity sha512-ae5+RGme36zjjgMLlSxnJW0yuaJtHny1C+slgaPZSr+KA78t5t5AJkAuk+9yGuYQ0qK3dqgnJYaZuJt8KMzHyw==
   dependencies:
     classnames "~2.2.5"
     date-fns "^1.29.0"
