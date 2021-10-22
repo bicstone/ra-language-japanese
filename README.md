@@ -79,3 +79,23 @@ const japaneseMessages = {
 ## ライセンス
 
 MIT License
+
+## 貢献
+
+コントリビューターの皆様に感謝いたします。
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://bicstone.me/"><img src="https://avatars.githubusercontent.com/u/47806818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Takanori Oishi</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Code">💻</a> <a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Documentation">📖</a> <a href="#maintenance-bicstone" title="Maintenance">🚧</a> <a href="#platform-bicstone" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/bicstone/ra-language-japanese/pulls?q=is%3Apr+reviewed-by%3Abicstone" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/toknsi"><img src="https://avatars.githubusercontent.com/u/26852981?v=4?s=100" width="100px;" alt=""/><br /><sub><b>toknsi</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=toknsi" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.yukinobu.jp/tdiary/"><img src="https://avatars.githubusercontent.com/u/5938690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yukinobu Nagayasu</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=yukinobu" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
