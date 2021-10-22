@@ -1,0 +1,46 @@
+{
+  "projectName": "ra-language-japanese",
+  "projectOwner": "bicstone",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "bicstone",
+      "name": "Takanori Oishi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47806818?v=4",
+      "profile": "https://bicstone.me/",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "platform",
+        "review"
+      ]
+    },
+    {
+      "login": "toknsi",
+      "name": "toknsi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26852981?v=4",
+      "profile": "https://github.com/toknsi",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yukinobu",
+      "name": "Yukinobu Nagayasu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5938690?v=4",
+      "profile": "https://www.yukinobu.jp/tdiary/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
