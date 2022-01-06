@@ -1,0 +1,39 @@
+{
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "assignees": ["bicstone"],
+  "reviewers": ["bicstone"],
+  "baseBranches": ["main", "next"],
+  "packageRules": [
+    {
+      "groupName": "main dependencies",
+      "matchBaseBranches": ["main"],
+      "matchDepTypes": ["dependencies"],
+      "schedule": ["before 6am on every day"],
+      "rangeStrategy": "update-lockfile",
+      "ignoreUnstable": true
+    },
+    {
+      "groupName": "main devDependencies",
+      "matchBaseBranches": ["main"],
+      "matchDepTypes": ["devDependencies"],
+      "schedule": ["before 6am on Saturday"],
+      "rangeStrategy": "pin"
+    },
+    {
+      "groupName": "next dependencies",
+      "matchBaseBranches": ["next"],
+      "matchDepTypes": ["dependencies"],
+      "schedule": ["before 6am on every day"],
+      "rangeStrategy": "update-lockfile",
+      "ignoreUnstable": false
+    },
+    {
+      "groupName": "next devDependencies",
+      "matchBaseBranches": ["next"],
+      "matchDepTypes": ["devDependencies"],
+      "schedule": ["before 6am on Saturday"],
+      "rangeStrategy": "pin"
+    }
+  ]
+}
