@@ -9,7 +9,7 @@
       "groupName": "main dependencies",
       "matchBaseBranches": ["main"],
       "matchDepTypes": ["dependencies"],
-      "schedule": ["before 6am on every day"],
+      "schedule": ["before 6am"],
       "rangeStrategy": "update-lockfile",
       "ignoreUnstable": true
     },
@@ -24,7 +24,7 @@
       "groupName": "next dependencies",
       "matchBaseBranches": ["next"],
       "matchDepTypes": ["dependencies"],
-      "schedule": ["before 6am on every day"],
+      "schedule": ["before 6am"],
       "rangeStrategy": "update-lockfile",
       "ignoreUnstable": false
     },
