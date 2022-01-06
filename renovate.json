@@ -1,0 +1,20 @@
+{
+  "extends": ["config:base"],
+  "timezone": "Asia/Tokyo",
+  "assignees": ["bicstone"],
+  "reviewers": ["bicstone"],
+  "baseBranches": "next",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["ra-core"],
+      "enabled": true,
+      "rangeStrategy": "replace",
+      "ignoreUnstable": false,
+      "labels": ["next"]
+    }
+  ]
+}
