@@ -467,7 +467,7 @@ query-string@^5.1.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-ra-core@^4.0.0-alpha.1:
+ra-core@4.0.0-alpha.1:
   version "4.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.0.0-alpha.1.tgz#0cab5fc05beb6a4155846694803839cf2a5a3635"
   integrity sha512-ivx+pUFd8krklo3n1DYrt9Vv1Fb6nknNai/P6ooYbBg+CnF2c6RUg/2DJJgVmSgn2zhWllRkusY6dFtyVmxedQ==
