@@ -7,12 +7,14 @@ Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
 react-admin の日本語翻訳です。  
 直訳せず、読みさすさとシンプルさを優先した意訳をしています。
 
-翻訳の提案がございましたら、お気軽に issue 頂ければ幸いです。
+## Installation
 
-## インストール
+Available in `react-admin@>=2.0.0-alpha1`.  
+ra-language-japanese is backward compatible.  
+Please install the latest version regardless of the version of React-admin.
 
-`react-admin@>=2.0.0-alpha1` で使用可能です。  
-後方互換性がありますので、 react-admin の依存バージョンに関わらず最新版をインストールしてください。
+`react-admin@>=2.0.0-alpha1`で利用可能です。  
+後方互換性がありますので、 React-admin のバージョンに関わらず最新版をインストールしてください。
 
 ### yarn
 
@@ -26,9 +28,9 @@ yarn add @bicstone/ra-language-japanese@latest
 npm install @bicstone/ra-language-japanese@latest
 ```
 
-## 使用方法
+## Usage
 
-### v3
+### v3 and above
 
 ```jsx
 import polyglotI18nProvider from 'ra-i18n-polyglot';
@@ -40,6 +42,8 @@ const i18nProvider = polyglotI18nProvider(() => japaneseMessages, 'ja');
   ...
 </Admin>
 ```
+
+See React-admin [documentation](https://marmelab.com/react-admin/Translation.html) for more information.
 
 ### v2
 
@@ -53,34 +57,15 @@ const i18nProvider = () => japaneseMessages;
 </Admin>
 ```
 
-### オリジナルの翻訳と混ぜる
+See React-admin [documentation](https://marmelab.com/react-admin/doc/2.9/Translation.html) for more information.
 
-```js
-import japaneseCoreMessages from '@bicstone/ra-language-japanese';
-
-const japaneseDomainMessages = {
-    resources:{
-        users: {
-            name: "ユーザー",
-            fields: {
-                email: "メールアドレス",
-                password: "パスワード"
-            }
-        }
-    }
-}
-
-const japaneseMessages = {
-    ...japaneseCoreMessages,
-    ...japaneseDomainMessages
-};
-```
-
-## ライセンス
+## License
 
 MIT License
 
-## 貢献
+## Contributors
+
+Thanks goes to all the people who contribute.
 
 コントリビューターの皆様に感謝いたします。
 

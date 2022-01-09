@@ -15,3 +15,4 @@
 1. `yarn build` でフォーマットとコンパイルする
 1. package.json バージョンを変更する (忘れがち)
 1. コミット、タグを作成、タグごとプッシュ、リリース (パブリッシュは自動)
+1. `npm dist-tag add @bicstone/ra-language-japanese@0.0.0 latest`
