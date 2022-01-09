@@ -27,7 +27,6 @@ By contributing your code to this repository, you agree to your contribution und
 1. dependabotが自動的に依存関係( `ra-language-english` )を最新にする
 1. `tsc` で型定義エラーがあれば、React-admin側で更新されている
 1. 型定義エラーを参考に、 `/src/index.tx` 翻訳を更新する
-1. `yarn build` でフォーマットとコンパイルする
-1. package.json バージョンを変更する (忘れがち)
-1. コミット、タグを作成、タグごとプッシュ、リリース (パブリッシュは自動)
-1. `npm dist-tag add @bicstone/ra-language-japanese@0.0.0 latest`
+1. `yarn build`
+1. `npm version <new version>`
+1. リリース (パブリッシュは自動)
