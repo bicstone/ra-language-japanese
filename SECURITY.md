@@ -4,7 +4,7 @@
 
 You can report a vulnerability by contacting us via email at [Oishi Takanori](https://github.com/bicstone).
 
-You may optionally encrypt your report with GPG, using my key `A124 FBBE 40A7 56E8` .
+You may optionally encrypt your report with GPG, using my key `EA52 C9F1 C3C9 396D` .
 
 ```plan
 -----BEGIN PGP PUBLIC KEY BLOCK-----
