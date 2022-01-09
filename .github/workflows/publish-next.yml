@@ -1,0 +1,18 @@
+name: Publish (next)
+on:
+  release:
+    types: [created]
+jobs:
+  build:
+    if: "github.event.release.prerelease"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+        cache: 'yarn'
+    - run: yarn install
+    - run: npm publish --tag=next
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
