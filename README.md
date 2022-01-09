@@ -2,9 +2,9 @@
 
 ![GitHub Actions Build Status](https://github.com/bicstone/ra-language-japanese/workflows/Node.js%20CI/badge.svg) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
 
-Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
+Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
-react-admin の日本語翻訳です。  
+[React-admin](https://github.com/marmelab/react-admin) の日本語翻訳です。  
 直訳せず、読みさすさとシンプルさを優先した意訳をしています。
 
 ## Installation
@@ -66,8 +66,6 @@ MIT License
 ## Contributors
 
 Thanks goes to all the people who contribute.
-
-コントリビューターの皆様に感謝いたします。
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
