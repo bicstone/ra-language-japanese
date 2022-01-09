@@ -19,13 +19,21 @@ Please install the latest version regardless of the version of React-admin.
 ### yarn
 
 ```sh
+# v2 - v3 (latest)
 yarn add @bicstone/ra-language-japanese@latest
+
+# v4 (next)
+yarn add @bicstone/ra-language-japanese@next
 ```
 
 ### npm
 
 ```sh
+# v2 - v3 (latest)
 npm install @bicstone/ra-language-japanese@latest
+
+# v4 (next)
+npm install @bicstone/ra-language-japanese@next
 ```
 
 ## Usage
