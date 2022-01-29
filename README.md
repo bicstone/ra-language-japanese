@@ -2,33 +2,43 @@
 
 ![GitHub Actions Build Status](https://github.com/bicstone/ra-language-japanese/workflows/Node.js%20CI/badge.svg) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
 
-Japanese messages for [react-admin](https://github.com/marmelab/react-admin).
+Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
-react-admin の日本語翻訳です。  
+[React-admin](https://github.com/marmelab/react-admin) の日本語翻訳です。  
 直訳せず、読みさすさとシンプルさを優先した意訳をしています。
 
-翻訳の提案がございましたら、お気軽に issue 頂ければ幸いです。
+## Installation
 
-## インストール
+Available in `react-admin@>=2.0.0-alpha1`.  
+ra-language-japanese is backward compatible.  
+Please install the latest version regardless of the version of React-admin.
 
-`react-admin@>=2.0.0-alpha1` で使用可能です。  
-後方互換性がありますので、 react-admin の依存バージョンに関わらず最新版をインストールしてください。
+`react-admin@>=2.0.0-alpha1`で利用可能です。  
+後方互換性がありますので、 React-admin のバージョンに関わらず最新版をインストールしてください。
 
 ### yarn
 
 ```sh
+# v2 - v3 (latest)
 yarn add @bicstone/ra-language-japanese@latest
+
+# v4 (next)
+yarn add @bicstone/ra-language-japanese@next
 ```
 
 ### npm
 
 ```sh
+# v2 - v3 (latest)
 npm install @bicstone/ra-language-japanese@latest
+
+# v4 (next)
+npm install @bicstone/ra-language-japanese@next
 ```
 
-## 使用方法
+## Usage
 
-### v3
+### v3 and above
 
 ```jsx
 import polyglotI18nProvider from 'ra-i18n-polyglot';
@@ -40,6 +50,8 @@ const i18nProvider = polyglotI18nProvider(() => japaneseMessages, 'ja');
   ...
 </Admin>
 ```
+
+See React-admin [documentation](https://marmelab.com/react-admin/Translation.html) for more information.
 
 ### v2
 
@@ -53,36 +65,15 @@ const i18nProvider = () => japaneseMessages;
 </Admin>
 ```
 
-### オリジナルの翻訳と混ぜる
+See React-admin [documentation](https://marmelab.com/react-admin/doc/2.9/Translation.html) for more information.
 
-```js
-import japaneseCoreMessages from '@bicstone/ra-language-japanese';
-
-const japaneseDomainMessages = {
-    resources:{
-        users: {
-            name: "ユーザー",
-            fields: {
-                email: "メールアドレス",
-                password: "パスワード"
-            }
-        }
-    }
-}
-
-const japaneseMessages = {
-    ...japaneseCoreMessages,
-    ...japaneseDomainMessages
-};
-```
-
-## ライセンス
+## License
 
 MIT License
 
-## 貢献
+## Contributors
 
-コントリビューターの皆様に感謝いたします。
+Thanks goes to all the people who contribute.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -92,6 +83,7 @@ MIT License
     <td align="center"><a href="https://bicstone.me/"><img src="https://avatars.githubusercontent.com/u/47806818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Takanori Oishi</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Code">💻</a> <a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Documentation">📖</a> <a href="#maintenance-bicstone" title="Maintenance">🚧</a> <a href="#platform-bicstone" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/bicstone/ra-language-japanese/pulls?q=is%3Apr+reviewed-by%3Abicstone" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/toknsi"><img src="https://avatars.githubusercontent.com/u/26852981?v=4?s=100" width="100px;" alt=""/><br /><sub><b>toknsi</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=toknsi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.yukinobu.jp/tdiary/"><img src="https://avatars.githubusercontent.com/u/5938690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yukinobu Nagayasu</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=yukinobu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://ohbarye.github.io/"><img src="https://avatars.githubusercontent.com/u/1811616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Masato Ohba</b></sub></a><br /><a href="#maintenance-ohbarye" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
