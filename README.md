@@ -9,36 +9,43 @@ Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
 ## Installation
 
-Available in `react-admin@>=2.0.0-alpha1`.  
-ra-language-japanese is backward compatible.  
-Please install the latest version regardless of the version of React-admin.
+### version 4 (alpha)
 
-`react-admin@>=2.0.0-alpha1`で利用可能です。  
-後方互換性がありますので、 React-admin のバージョンに関わらず最新版をインストールしてください。
-
-### yarn
+<details>
 
 ```sh
-# v2 - v3 (latest)
-yarn add @bicstone/ra-language-japanese@latest
-
-# v4 (next)
 yarn add @bicstone/ra-language-japanese@next
+
+# or
+
+npm install @bicstone/ra-language-japanese@next
 ```
 
-### npm
+</details>
+
+### version 3
 
 ```sh
-# v2 - v3 (latest)
-npm install @bicstone/ra-language-japanese@latest
+yarn add @bicstone/ra-language-japanese@latest
 
-# v4 (next)
-npm install @bicstone/ra-language-japanese@next
+# or
+
+npm install @bicstone/ra-language-japanese@latest
+```
+
+### version 2
+
+```sh
+yarn add @bicstone/ra-language-japanese@latest
+
+# or
+
+npm install @bicstone/ra-language-japanese@latest
 ```
 
 ## Usage
 
-### v3 and above
+### version 3 or above
 
 ```jsx
 import polyglotI18nProvider from 'ra-i18n-polyglot';
@@ -53,7 +60,7 @@ const i18nProvider = polyglotI18nProvider(() => japaneseMessages, 'ja');
 
 See React-admin [documentation](https://marmelab.com/react-admin/Translation.html) for more information.
 
-### v2
+### version 2
 
 ```jsx
 import japaneseMessages from '@bicstone/ra-language-japanese';
