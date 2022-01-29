@@ -43,7 +43,7 @@ const messages: Required<TranslationMessages> = {
       null: "未選択",
     },
     page: {
-      create: "%{name} を作成",
+      create: "%{name}を作成",
       dashboard: "ダッシュボード",
       edit: "%{name} #%{id}",
       error: "問題が発生しました",
@@ -67,9 +67,9 @@ const messages: Required<TranslationMessages> = {
         upload_single: "アップロードする画像をドロップ、または選択してください",
       },
       references: {
-        all_missing: "データが利用できなくなりました",
-        many_missing: "選択したデータが利用できなくなりました",
-        single_missing: "選択したデータが利用できなくなりました",
+        all_missing: "データは利用できなくなりました",
+        many_missing: "選択したデータは利用できなくなりました",
+        single_missing: "選択したデータは利用できなくなりました",
       },
       password: {
         toggle_visible: "非表示",
@@ -80,10 +80,10 @@ const messages: Required<TranslationMessages> = {
       about: "詳細",
       are_you_sure: "本当によろしいですか？",
       bulk_delete_content:
-        "%{name} を削除してよろしいですか？ |||| 選択した %{smart_count}件のアイテムを削除してよろしいですか？",
-      bulk_delete_title: "%{name} を削除 |||| %{name} %{smart_count}件を削除",
+        "%{name}を削除してよろしいですか？ |||| 選択した %{smart_count}件のアイテムを削除してよろしいですか？",
+      bulk_delete_title: "%{name}を削除 |||| %{name} %{smart_count}件を削除",
       bulk_update_content:
-        "%{name} を更新してよろしいですか？ |||| 選択した %{smart_count}件のアイテムを更新してよろしいですか？",
+        "%{name}を更新してよろしいですか？ |||| 選択した %{smart_count}件のアイテムを更新してよろしいですか？",
       bulk_update_title: "%{name}を更新 |||| %{name} %{smart_count}件を更新",
       delete_content: "削除してよろしいですか？",
       delete_title: "%{name} #%{id} を削除",
@@ -93,7 +93,7 @@ const messages: Required<TranslationMessages> = {
         "入力値に誤りがあります。エラーメッセージを確認してください",
       loading: "読み込み中です。しばらくお待ちください",
       no: "いいえ",
-      not_found: "間違ったURLを入力したか、間違ったリンクを辿りました",
+      not_found: "間違ったURLを入力したか、古いリンクを開いた可能性があります",
       yes: "はい",
       unsaved_changes:
         "行った変更が保存されていません。このページから移動してよろしいですか？",
@@ -101,15 +101,19 @@ const messages: Required<TranslationMessages> = {
     navigation: {
       no_results: "結果が見つかりませんでした",
       no_more_results:
-        "ページ番号 %{page} は最大のページ数を超えています。前のページに戻ってください",
-      page_out_of_boundaries:
-        "ページ番号 %{page} は最大のページ数を超えています",
-      page_out_from_end: "最大のページ数より後に移動できません",
-      page_out_from_begin: "1 ページより前に移動できません",
-      page_range_info: "%{offsetBegin}-%{offsetEnd} / %{total}",
+        "%{page}ページは最大のページ数を超えています。前のページに戻ってください",
+      page_out_of_boundaries: "%{page}ページは最大のページ数を超えています",
+      page_out_from_end: "最大のページより後に移動できません",
+      page_out_from_begin: "1ページより前に移動できません",
+      page_range_info: "%{offsetBegin} - %{offsetEnd} / %{total}",
+      partial_page_range_info: "%{offsetBegin} - %{offsetEnd}",
+      current_page: "%{page}ページ目",
+      page: "%{page}ページに移動",
+      first: "最初のページに移動",
+      last: "最後のページに移動",
+      next: "次のページに移動",
+      previous: "前のページに移動",
       page_rows_per_page: "表示件数:",
-      next: "次",
-      prev: "前",
       skip_nav: "コンテンツにスキップ",
     },
     auth: {
@@ -127,9 +131,9 @@ const messages: Required<TranslationMessages> = {
       DESC: "降順",
     },
     notification: {
-      updated: "更新しました |||| %{smart_count} 件更新しました",
+      updated: "更新しました |||| %{smart_count}件更新しました",
       created: "作成しました",
-      deleted: "削除しました |||| %{smart_count} 件削除しました",
+      deleted: "削除しました |||| %{smart_count}件削除しました",
       bad_item: "データが不正です",
       item_doesnt_exist: "データが存在しませんでした",
       http_error: "通信エラーが発生しました",
