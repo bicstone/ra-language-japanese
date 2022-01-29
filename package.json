@@ -7,7 +7,7 @@
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
   },
   "dependencies": {
-    "ra-core": "4.0.0-alpha.1"
+    "ra-core": "4.0.0-alpha.2"
   },
   "devDependencies": {
     "all-contributors-cli": "6.20.0",
