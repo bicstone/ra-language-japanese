@@ -182,9 +182,9 @@ iconv-lite@^0.4.24:
     safer-buffer ">= 2.1.2 < 3"
 
 inflection@~1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/inflection/-/inflection-1.13.1.tgz#c5cadd80888a90cf84c2e96e340d7edc85d5f0cb"
-  integrity sha512-dldYtl2WlN0QDkIDtg8+xFwOS2Tbmp12t1cHa5/YClU6ZQjTFm7B66UcVbh9NQB+HvT5BAd2t5+yKsBkw5pcqA==
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/inflection/-/inflection-1.13.2.tgz#15e8c797c6c3dadf31aa658f8df8a4ea024798b0"
+  integrity sha512-cmZlljCRTBFouT8UzMzrGcVEvkv6D/wBdcdKG7J1QH5cXjtU75Dm+P27v9EKu/Y43UYyCJd1WC4zLebRrC8NBw==
 
 inquirer@^7.0.4:
   version "7.3.3"
@@ -335,9 +335,9 @@ query-string@^5.1.1:
     strict-uri-encode "^1.0.0"
 
 ra-core@>=2.0.0-alpha1:
-  version "3.19.7"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.19.7.tgz#c7e9313000434dd991d06846ef154b5dfed6a650"
-  integrity sha512-ar85cQ7vtIIrb6Ijj8Om+IkuB4i4uuoMcfvDgLxaNOEyImq+n3osVHi93FkZKpdZAHQ9qKnkN83SODhoRdaGfg==
+  version "3.19.8"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-3.19.8.tgz#ce16b2b568d932e13700eef8d5a77bd63761d350"
+  integrity sha512-EyN4pBDfrgBaZol+IfxrN5khtvnmVSeUDU1b5a1aPHAcbZly72eVI0rdPZUABrs8z6h82T0sUkzgC6kV5trM6A==
   dependencies:
     classnames "~2.3.1"
     date-fns "^1.29.0"
