@@ -36,6 +36,7 @@ const messages: Required<TranslationMessages> = {
       move_up: "上へ移動",
       move_down: "下へ移動",
       open: "開く",
+      toggle_theme: "ダークモード切替",
     },
     boolean: {
       true: "はい",
