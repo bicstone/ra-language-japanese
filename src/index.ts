@@ -79,14 +79,14 @@ const messages: Required<TranslationMessages> = {
     },
     message: {
       about: "詳細",
-      are_you_sure: "本当によろしいですか？",
+      are_you_sure: "本当によろしいでしょうか？",
       bulk_delete_content:
-        "%{name}を削除してよろしいですか？ |||| 選択した %{smart_count}件のアイテムを削除してよろしいですか？",
+        "%{name}を削除しますか？ |||| 選択した %{smart_count}件のアイテムを削除しますか？",
       bulk_delete_title: "%{name}を削除 |||| %{name} %{smart_count}件を削除",
       bulk_update_content:
-        "%{name}を更新してよろしいですか？ |||| 選択した %{smart_count}件のアイテムを更新してよろしいですか？",
+        "%{name}を更新しますか？ |||| 選択した %{smart_count}件のアイテムを更新しますか？",
       bulk_update_title: "%{name}を更新 |||| %{name} %{smart_count}件を更新",
-      delete_content: "削除してよろしいですか？",
+      delete_content: "削除しますか？",
       delete_title: "%{name} #%{id} を削除",
       details: "詳細",
       error: "クライアントエラーが発生し、処理を完了できませんでした",
@@ -97,7 +97,7 @@ const messages: Required<TranslationMessages> = {
       not_found: "間違ったURLを入力したか、古いリンクを開いた可能性があります",
       yes: "はい",
       unsaved_changes:
-        "行った変更が保存されていません。このページから移動してよろしいですか？",
+        "行った変更が保存されていません。このページから移動しますか？",
     },
     navigation: {
       no_results: "結果が見つかりませんでした",
@@ -155,6 +155,17 @@ const messages: Required<TranslationMessages> = {
       email: "メールアドレスである必要があります",
       oneOf: "次のいずれかである必要があります: %{options}",
       regex: "次の正規表現形式にする必要があります: %{pattern}",
+    },
+    saved_queries: {
+      label: "保存した検索条件",
+      query_name: "検索条件名",
+      new_label: "現在の検索条件を保存...",
+      new_dialog_title: "検索条件を保存",
+      remove_label: "検索条件を削除",
+      remove_label_with_name: "検索条件 %{name} を削除",
+      remove_dialog_title: "検索条件を削除",
+      remove_message: "選択した保存検索条件を削除しますか？",
+      help: "検索条件を保存して、あとから同じ条件で検索できます。",
     },
   },
 };

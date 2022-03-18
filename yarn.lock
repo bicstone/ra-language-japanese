@@ -473,10 +473,10 @@ query-string@^7.1.1:
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
 
-ra-core@4.0.0-beta.2:
-  version "4.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.0.0-beta.2.tgz#1948f40284e63630fa4b452614bbfebe3d551cf6"
-  integrity sha512-YltXX0MzHB3RjILOezH7l0ap++WEvFCJ0UCwX/I0gjsFMg8UtbpF235SSgKwRwy23LgzDytbUmHMQd9igT4CTw==
+ra-core@4.0.0-beta.3:
+  version "4.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.0.0-beta.3.tgz#9df19d98113124860200c670c57bae7a067be96c"
+  integrity sha512-SsbezcunprnzUltl+uAC+9Gi0Axneu9uvXWuFjo3PpInKrFvyJGahaCC6Q0yuW4HHXOICgWRgmIvievgn1Q1+A==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
@@ -488,7 +488,6 @@ ra-core@4.0.0-beta.2:
     query-string "^7.1.1"
     react-is "^17.0.2"
     react-query "^3.32.1"
-    reselect "~3.0.0"
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -528,11 +527,6 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
-
-reselect@~3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
-  integrity sha1-79qpjqdFEyTQkrKyFjpqHXqaIUc=
 
 restore-cursor@^3.1.0:
   version "3.1.0"

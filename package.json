@@ -1,13 +1,13 @@
 {
   "name": "@bicstone/ra-language-japanese",
   "description": "Japanese messages for react-admin",
-  "version": "4.0.0-beta.2",
+  "version": "4.0.0-beta.3",
   "author": "Oishi Takanori",
   "bugs": {
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
   },
   "dependencies": {
-    "ra-core": "4.0.0-beta.2"
+    "ra-core": "4.0.0-beta.3"
   },
   "devDependencies": {
     "all-contributors-cli": "6.20.0",
