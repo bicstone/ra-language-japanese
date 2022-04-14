@@ -22,11 +22,11 @@ npm install @bicstone/ra-language-japanese@latest
 ### version 2 or 3
 
 ```sh
-yarn add @bicstone/ra-language-japanese@^3
+yarn add @bicstone/ra-language-japanese@3
 
 # or
 
-npm install @bicstone/ra-language-japanese@^3
+npm install @bicstone/ra-language-japanese@3
 ```
 
 ## Usage
