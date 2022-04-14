@@ -9,21 +9,7 @@ Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
 ## Installation
 
-### version 4 (alpha)
-
-<details>
-
-```sh
-yarn add @bicstone/ra-language-japanese@next
-
-# or
-
-npm install @bicstone/ra-language-japanese@next
-```
-
-</details>
-
-### version 3
+### version 4
 
 ```sh
 yarn add @bicstone/ra-language-japanese@latest
@@ -33,19 +19,19 @@ yarn add @bicstone/ra-language-japanese@latest
 npm install @bicstone/ra-language-japanese@latest
 ```
 
-### version 2
+### version 2 or 3
 
 ```sh
-yarn add @bicstone/ra-language-japanese@latest
+yarn add @bicstone/ra-language-japanese@3
 
 # or
 
-npm install @bicstone/ra-language-japanese@latest
+npm install @bicstone/ra-language-japanese@3
 ```
 
 ## Usage
 
-### version 3 or above
+### version 3 or 4
 
 ```jsx
 import polyglotI18nProvider from 'ra-i18n-polyglot';
@@ -87,7 +73,7 @@ Thanks goes to all the people who contribute.
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://bicstone.me/"><img src="https://avatars.githubusercontent.com/u/47806818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Takanori Oishi</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Code">💻</a> <a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Documentation">📖</a> <a href="#maintenance-bicstone" title="Maintenance">🚧</a> <a href="#platform-bicstone" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/bicstone/ra-language-japanese/pulls?q=is%3Apr+reviewed-by%3Abicstone" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://bicstone.me/"><img src="https://avatars.githubusercontent.com/u/47806818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oishi Takanori</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Code">💻</a> <a href="https://github.com/bicstone/ra-language-japanese/commits?author=bicstone" title="Documentation">📖</a> <a href="#maintenance-bicstone" title="Maintenance">🚧</a> <a href="#platform-bicstone" title="Packaging/porting to new platform">📦</a> <a href="https://github.com/bicstone/ra-language-japanese/pulls?q=is%3Apr+reviewed-by%3Abicstone" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/toknsi"><img src="https://avatars.githubusercontent.com/u/26852981?v=4?s=100" width="100px;" alt=""/><br /><sub><b>toknsi</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=toknsi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.yukinobu.jp/tdiary/"><img src="https://avatars.githubusercontent.com/u/5938690?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yukinobu Nagayasu</b></sub></a><br /><a href="https://github.com/bicstone/ra-language-japanese/commits?author=yukinobu" title="Documentation">📖</a></td>
     <td align="center"><a href="https://ohbarye.github.io/"><img src="https://avatars.githubusercontent.com/u/1811616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Masato Ohba</b></sub></a><br /><a href="#maintenance-ohbarye" title="Maintenance">🚧</a></td>
