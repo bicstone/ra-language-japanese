@@ -370,7 +370,7 @@ mute-stream@0.0.8:
 nano-time@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/nano-time/-/nano-time-1.0.0.tgz#b0554f69ad89e22d0907f7a12b0993a5d96137ef"
-  integrity sha1-sFVPaa2J4i0JB/ehKwmTpdlhN+8=
+  integrity sha512-flnngywOoQ0lLQOTRNexn2gGSNuM9bKj9RZAWSzhQ+UJYaAFG9bac4DW9VHjUAzrOaIcajHybCTHe/bkvozQqA==
   dependencies:
     big-integer "^1.6.16"
 
@@ -384,7 +384,7 @@ node-fetch@^2.6.0:
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
-  integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
 oblivious-set@1.0.0:
   version "1.0.0"
@@ -394,7 +394,7 @@ oblivious-set@1.0.0:
 once@^1.3.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
-  integrity sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+  integrity sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==
   dependencies:
     wrappy "1"
 
@@ -437,7 +437,7 @@ path-exists@^4.0.0:
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
-  integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+  integrity sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==
 
 pegjs@^0.10.0:
   version "0.10.0"
@@ -474,9 +474,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.1.tgz#3db59ec30e1b06f6c7499d8235dd0ca2d212fa9e"
-  integrity sha512-xZS1/2z8HFevYBm9XVE2BjacExmJaU8HGshgLPDKmFBpygGfR+tQ2XRG7dcme/zylkjPpMGalBs7RtuFf6RRZw==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.2.tgz#38db469b233e8edbeb879b011e5340b6759cf26c"
+  integrity sha512-6lUpboSTk3e5v7K0pfCU/6WUwfaO7q3cwbhm1gBPNpBC+HZJWbZwEv1VEgHors6ewWXJ2GPXMjz9huwJgWjAiQ==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
