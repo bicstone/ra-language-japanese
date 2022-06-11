@@ -474,9 +474,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.2.tgz#38db469b233e8edbeb879b011e5340b6759cf26c"
-  integrity sha512-6lUpboSTk3e5v7K0pfCU/6WUwfaO7q3cwbhm1gBPNpBC+HZJWbZwEv1VEgHors6ewWXJ2GPXMjz9huwJgWjAiQ==
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.3.tgz#173ed689252c07f9d766fdaca74a628f744fd0bd"
+  integrity sha512-1vvkAU4uvCvJQp5w7dAt2+fJ1yisdUh7xZIV2/wLr4ltCM+FJSmAsmoZPdgUpdX7pHwxwqSLLFnZAPDKvkx04Q==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
@@ -516,7 +516,7 @@ regenerator-runtime@^0.13.4:
 remove-accents@0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/remove-accents/-/remove-accents-0.4.2.tgz#0a43d3aaae1e80db919e07ae254b285d9e1c7bb5"
-  integrity sha1-CkPTqq4egNuRngeuJUsoXZ4ce7U=
+  integrity sha512-7pXIJqJOq5tFgG1A2Zxti3Ht8jJF337m4sowbuHsW30ZnkQFnDzy9qBNhgzX8ZLW4+UBcXiiR7SwR6pokHsxiA==
 
 require-directory@^2.1.1:
   version "2.1.1"
@@ -578,7 +578,7 @@ split-on-first@^1.0.0:
 strict-uri-encode@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
-  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
+  integrity sha512-QwiXZgpRcKkhTj2Scnn++4PKtWsH0kpzZ62L2R6c/LUVYv7hVnZqcg2+sMuT6R7Jusu1vviK/MFsu6kNJfWlEQ==
 
 string-width@^4.1.0, string-width@^4.2.0:
   version "4.2.3"
