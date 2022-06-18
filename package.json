@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "all-contributors-cli": "6.20.0",
-    "prettier": "2.6.2",
-    "typescript": "4.7.3"
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
   },
   "files": [
     "LICENSE",
