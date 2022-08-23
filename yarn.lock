@@ -150,9 +150,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 date-fns@^2.19.0:
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.1.tgz#9667c2615525e552b5135a3116b95b1961456e60"
-  integrity sha512-dlLD5rKaKxpFdnjrs+5azHDFOPEu4ANy/LTh04A1DTzMM7qoajmKCBc8pkKRFT41CNzw+4gQh79X5C+Jq27HAw==
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.2.tgz#0d4b3d0f3dff0f920820a070920f0d9662c51931"
+  integrity sha512-0VNbwmWJDS/G3ySwFSJA3ayhbURMTJLtwM2DTxf9CWondCnh6DTNlO9JgRSq6ibf4eD0lfMJNBxUdEAHHix+bA==
 
 decamelize@^1.2.0:
   version "1.2.0"
@@ -474,9 +474,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.2.7"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.2.7.tgz#56f23f6ab5c5eab9d09ea6d74c07d6daae2c60ea"
-  integrity sha512-DFrQXsajMv95d2juhXpArDz2I7FVU6x8YtaJpmGaFsClGYK3qcMOfE+duVFdxpihczsihg4YSPumsvNtdtlg6w==
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.3.0.tgz#5fc4486e907588c250a20d46cd23822ce49a912b"
+  integrity sha512-ewsZ7XFdOiJQidkKSQTmCa1xtwPNWmKufTHIMMHtq7E4RZz2VgkJVVAPyxR7JNif5SvaZums02HRbQdZSh2QMg==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
