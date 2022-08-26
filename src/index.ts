@@ -19,6 +19,7 @@ const messages: Required<TranslationMessages> = {
       list: "一覧",
       refresh: "更新",
       remove_filter: "検索条件を削除",
+      remove_all_filters: "すべての検索条件を削除",
       remove: "削除",
       save: "保存",
       search: "検索",
