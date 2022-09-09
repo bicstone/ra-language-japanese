@@ -13,9 +13,9 @@
     "ra-core": ">=4.0.0-alpha.2"
   },
   "devDependencies": {
-    "all-contributors-cli": "6.20.0",
+    "all-contributors-cli": "6.20.4",
     "prettier": "2.7.1",
-    "typescript": "4.8.2"
+    "typescript": "4.8.3"
   },
   "files": [
     "LICENSE",
