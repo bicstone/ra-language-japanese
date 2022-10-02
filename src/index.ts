@@ -1,4 +1,4 @@
-import { TranslationMessages } from "ra-core",
+import { TranslationMessages } from "ra-core";
 
 const messages: Required<TranslationMessages> = {
   ra: {
@@ -169,21 +169,21 @@ const messages: Required<TranslationMessages> = {
       help: "検索条件を保存して、あとから同じ条件で検索できます",
     },
     configurable: {
-        customize: 'カスタマイズ',
-        templateError: '## Template error',
-        configureMode: 'このページをカスタマイズする',
-        inspector: {
-            title: 'カスタマイズ',
-            content: 'UI要素にマウスオーバーするとカスタマイズできます',
-            reset: '設定をリセット',
-        },
-        SimpleList: {
-            primaryText: '1行目',
-            secondaryText: '2行目',
-            tertiaryText: '3行目',
-        },
+      customize: "カスタマイズ",
+      templateError: "## Template error",
+      configureMode: "このページをカスタマイズする",
+      inspector: {
+        title: "カスタマイズ",
+        content: "UI要素にマウスオーバーするとカスタマイズできます",
+        reset: "設定をリセット",
+      },
+      SimpleList: {
+        primaryText: "1行目",
+        secondaryText: "2行目",
+        tertiaryText: "3行目",
+      },
     },
   },
-},
+};
 
-export default messages,
+export default messages;
