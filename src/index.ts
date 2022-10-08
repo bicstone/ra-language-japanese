@@ -170,7 +170,6 @@ const messages: Required<TranslationMessages> = {
     },
     configurable: {
       customize: "カスタマイズ",
-      templateError: "## Template error",
       configureMode: "このページをカスタマイズする",
       inspector: {
         title: "カスタマイズ",
