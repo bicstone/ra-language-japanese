@@ -13,7 +13,7 @@
     "ra-core": ">=4.0.0-alpha.2"
   },
   "devDependencies": {
-    "all-contributors-cli": "6.23.1",
+    "all-contributors-cli": "6.24.0",
     "prettier": "2.7.1",
     "typescript": "4.8.4"
   },
