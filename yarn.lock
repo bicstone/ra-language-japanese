@@ -2,7 +2,14 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.18.9", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
+  version "7.19.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.19.4.tgz#a42f814502ee467d55b38dd1c256f53a7b885c78"
+  integrity sha512-EXpLCrk55f+cYqmHsSR+yD/0gAIMxxA9QK9lnQWzhMCvt+YmoBN7Zx94s++Kv0+unHk39vxNO8t+CMA2WSS3wA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.18.9":
   version "7.19.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.19.0.tgz#22b11c037b094d27a8a2504ea4dcff00f50e2259"
   integrity sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==
@@ -474,9 +481,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.4.1.tgz#4e68e33c3143c08618f25fc464272e7c8b73ae2e"
-  integrity sha512-opDq9ZxVQCIT3M+TX88l2xVxvFSwrbTpRwYC92WTJI17zgiQNnBN5PAEpOi10G80hf65deB138L3HzheM8eQCg==
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.4.3.tgz#8527f3ad02ec92f7a83c281d45e26b8ed64847ae"
+  integrity sha512-Ei8iMbfh48VVqgCuB/9W7klmM3wR9A3qDM0tTWUaBzz7vN6h88zkB93trYGo7rfWtMPCpRNmieJ/BnRLNBjdkg==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
@@ -509,9 +516,9 @@ react-query@^3.32.1:
     match-sorter "^6.0.2"
 
 regenerator-runtime@^0.13.4:
-  version "0.13.9"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
-  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+  version "0.13.10"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.10.tgz#ed07b19616bcbec5da6274ebc75ae95634bfc2ee"
+  integrity sha512-KepLsg4dU12hryUO7bp/axHAKvwGOCV0sGloQtpagJ12ai+ojVDqkeGSiRX1zlq+kjIMZ1t7gpze+26QqtdGqw==
 
 remove-accents@0.4.2:
   version "0.4.2"
