@@ -481,9 +481,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.4.3.tgz#8527f3ad02ec92f7a83c281d45e26b8ed64847ae"
-  integrity sha512-Ei8iMbfh48VVqgCuB/9W7klmM3wR9A3qDM0tTWUaBzz7vN6h88zkB93trYGo7rfWtMPCpRNmieJ/BnRLNBjdkg==
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.4.4.tgz#ebc2d21b74a5e49961e85a3b62696e786af864ac"
+  integrity sha512-SdJ8TTxgfYA33VLdQEqO39ZEu0sgByHdnEdTPFfonoPVc+OQTQ4ZmQwzvyDvmCqnsxyRaXw5Y9w2QBwKFs/NHw==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
