@@ -38,6 +38,7 @@ const messages: Required<TranslationMessages> = {
       move_down: "下へ移動",
       open: "開く",
       toggle_theme: "ダークモード切替",
+      select_columns: "列を編集",
     },
     boolean: {
       true: "はい",
