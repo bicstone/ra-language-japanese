@@ -1,7 +1,7 @@
 {
   "name": "@bicstone/ra-language-japanese",
   "description": "Japanese messages for react-admin",
-  "version": "4.5.0",
+  "version": "4.5.2",
   "author": "Oishi Takanori",
   "bugs": {
     "url": "https://github.com/bicstone/ra-language-japanese/issues"
