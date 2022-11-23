@@ -172,6 +172,9 @@ const messages: Required<TranslationMessages> = {
     configurable: {
       customize: "カスタマイズ",
       configureMode: "このページをカスタマイズする",
+      Datagrid: {
+        unlabeled: "列名未設定 #%{column}",
+      },
       inspector: {
         title: "カスタマイズ",
         content: "UI要素にマウスオーバーするとカスタマイズできます",
