@@ -172,15 +172,23 @@ const messages: Required<TranslationMessages> = {
     configurable: {
       customize: "カスタマイズ",
       configureMode: "このページをカスタマイズする",
-      Datagrid: {
-        unlabeled: "列名未設定 #%{column}",
-      },
       inspector: {
         title: "カスタマイズ",
         content: "UI要素にマウスオーバーするとカスタマイズできます",
         reset: "設定をリセット",
+        hideAll: 'すべて非表示',
+        showAll: 'すべて表示',
+      },
+      Datagrid: {
+        title: "データグリッド",
+        unlabeled: "列名未設定 #%{column}",
+      },
+      SimpleForm: {
+        title: 'フォーム',
+        unlabeled: 'フィールド名未設定 #%{input}',
       },
       SimpleList: {
+        title: "リスト",
         primaryText: "1行目",
         secondaryText: "2行目",
         tertiaryText: "3行目",
