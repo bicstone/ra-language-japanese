@@ -8,7 +8,7 @@ const messages: Required<TranslationMessages> = {
       back: "戻る",
       bulk_actions: "%{smart_count}件選択",
       cancel: "キャンセル",
-      clear_array_input: "すべて削除",
+      clear_array_input: "すべての項目を削除",
       clear_input_value: "空にする",
       clone: "複製",
       confirm: "確認",
