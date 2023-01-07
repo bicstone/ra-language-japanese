@@ -83,6 +83,7 @@ const messages: Required<TranslationMessages> = {
     message: {
       about: "詳細",
       are_you_sure: "本当によろしいでしょうか？",
+      auth_error: "認証トークンの検証に失敗しました。",
       bulk_delete_content:
         "%{name}を削除しますか？ |||| 選択した %{smart_count}件のアイテムを削除しますか？",
       bulk_delete_title: "%{name}を削除 |||| %{name} %{smart_count}件を削除",
