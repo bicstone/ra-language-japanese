@@ -3,9 +3,9 @@
 
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
-  version "7.20.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.7.tgz#fcb41a5a70550e04a7b708037c7c32f7f356d8fd"
-  integrity sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==
+  version "7.20.13"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
+  integrity sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -481,9 +481,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.7.0.tgz#2ecefdb7bfe284da0fa5339754a1b5626400d5b0"
-  integrity sha512-BqryOzTwuGd5Qn7Q5JLnipgWbhuNbIbK5Y9Kq0BQTNJTr8E8KxwgxduOyQatR4j8Gx8klrZrzZkQDGKlE4287g==
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.7.2.tgz#fdfe127da3aa04ff5b53d265ca3a00d6590b77ad"
+  integrity sha512-05PPxlcHvAgDFRlos3WwR52FA9jFyn1IXQYetvFksyah/1mulSVptXrzG3LdWBE/XazsgHi5JT7G8BdqxJyGzw==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
@@ -507,9 +507,9 @@ react-is@^17.0.2:
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
 react-query@^3.32.1:
-  version "3.39.2"
-  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.2.tgz#9224140f0296f01e9664b78ed6e4f69a0cc9216f"
-  integrity sha512-F6hYDKyNgDQfQOuR1Rsp3VRzJnWHx6aRnnIZHMNGGgbL3SBgpZTDg8MQwmxOgpCAoqZJA+JSNCydF1xGJqKOCA==
+  version "3.39.3"
+  resolved "https://registry.yarnpkg.com/react-query/-/react-query-3.39.3.tgz#4cea7127c6c26bdea2de5fb63e51044330b03f35"
+  integrity sha512-nLfLz7GiohKTJDuT4us4X3h/8unOh+00MLb2yJoGTPjxKs2bc1iDhkNx2bd5MKklXnOD3NrVZ+J2UXujA5In4g==
   dependencies:
     "@babel/runtime" "^7.5.5"
     broadcast-channel "^3.4.1"
