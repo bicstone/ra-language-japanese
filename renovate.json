@@ -1,8 +1,5 @@
 {
-  "extends": ["config:base"],
-  "timezone": "Asia/Tokyo",
-  "assignees": ["bicstone"],
-  "reviewers": ["bicstone"],
+  "extends": ["github>bicstone/renovate-config"],
   "baseBranches": ["main", "next"],
   "packageRules": [
     {
