@@ -3,9 +3,9 @@
 
 
 "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2":
-  version "7.20.13"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
-  integrity sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==
+  version "7.21.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.0.tgz#5b55c9d394e5fcf304909a8b00c07dc217b56673"
+  integrity sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==
   dependencies:
     regenerator-runtime "^0.13.11"
 
@@ -481,9 +481,9 @@ query-string@^7.1.1:
     strict-uri-encode "^2.0.0"
 
 ra-core@>=4.0.0-alpha.2:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.8.0.tgz#9b227f4452461a842bbf4b169a4b7b8a795d81a3"
-  integrity sha512-4FFf9YsuCF2jDVQhTcuXNTJowcM03butEzNJeJ9/DElAFTURwHuxsJMMpDVGMsBKOpsVmQIO0CEzPwTvkGygZQ==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.8.1.tgz#c5311413bd8bfd818a81471def5b28f9abe2f612"
+  integrity sha512-v6krJQid79Vgg1D5ZpoxyMF75R+MGXhBaV7VY6hlHVZqv5zIWXbljjCw0Xv1fb7dhnCFhmxjXjnTr1V+LdbQnQ==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
