@@ -41,5 +41,6 @@
   "scripts": {
     "build": "prettier --write ./src/**/* && tsc --newLine LF"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "packageManager": "yarn@3.4.1"
 }
