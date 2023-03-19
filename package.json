@@ -42,5 +42,5 @@
     "build": "prettier --write ./src/**/* && tsc --newLine LF"
   },
   "sideEffects": false,
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.5.0"
 }
