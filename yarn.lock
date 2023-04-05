@@ -658,8 +658,8 @@ __metadata:
   linkType: hard
 
 "ra-core@npm:>=4.0.0-alpha.2":
-  version: 4.9.0
-  resolution: "ra-core@npm:4.9.0"
+  version: 4.9.1
+  resolution: "ra-core@npm:4.9.1"
   dependencies:
     clsx: ^1.1.1
     date-fns: ^2.19.0
@@ -678,7 +678,7 @@ __metadata:
     react-hook-form: ^7.40.0
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-  checksum: c2d89b7cb9036f49e89def761427638bf0da5d263ddef0b07558cb00b0c036cb6c8f31e3baa518907d85ad690209676169cb54a3c06b0a3a7ae29f6d5ee02b5b
+  checksum: b5d97ef40ddaf070aca8ff6376b8359ec085c7c2fff4ce29acbb461dc3ed8a1de40cf10bfe295ae9bfa3d425ad137d6afb466d89b5f805df3f9efe92155c9b60
   languageName: node
   linkType: hard
 
