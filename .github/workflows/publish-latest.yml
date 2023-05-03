@@ -2,6 +2,8 @@ name: Publish (latest)
 on:
   release:
     types: [created]
+permissions:
+  id-token: write
 jobs:
   build:
     if: "!github.event.release.prerelease"
@@ -14,6 +16,6 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
         cache: 'yarn'
     - run: yarn install --immutable
-    - run: npm publish --tag=latest
+    - run: npm publish --provenance --tag=latest
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
