@@ -43,6 +43,6 @@
   },
   "sideEffects": false,
   "volta": {
-    "node": "20.7.0"
+    "node": "20.8.0"
   }
 }
