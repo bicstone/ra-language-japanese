@@ -13,13 +13,9 @@ Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
 ```sh
 npm install @bicstone/ra-language-japanese@latest
-
 # or
-
 yarn add @bicstone/ra-language-japanese@latest
-
 # or
-
 pnpm add @bicstone/ra-language-japanese@latest
 ```
 
@@ -27,13 +23,9 @@ pnpm add @bicstone/ra-language-japanese@latest
 
 ```sh
 npm install @bicstone/ra-language-japanese@3
-
 # or
-
 yarn add @bicstone/ra-language-japanese@3
-
 # or
-
 pnpm add @bicstone/ra-language-japanese@3
 ```
 
