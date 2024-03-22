@@ -1,6 +1,6 @@
 # Japanese Messages for React-Admin
 
-![GitHub Actions Build Status](https://github.com/bicstone/ra-language-japanese/workflows/Node.js%20CI/badge.svg) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
+[![Deploy to Production (main)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-prod.yml/badge.svg?branch=main)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-prod.yml) [![Deploy to Staging (stg)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-stg.yml/badge.svg?branch=main)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-stg.yml) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
 
 Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
@@ -12,21 +12,21 @@ Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 ### version 4
 
 ```sh
-yarn add @bicstone/ra-language-japanese@latest
-
-# or
-
 npm install @bicstone/ra-language-japanese@latest
+# or
+yarn add @bicstone/ra-language-japanese@latest
+# or
+pnpm add @bicstone/ra-language-japanese@latest
 ```
 
 ### version 2 or 3
 
 ```sh
-yarn add @bicstone/ra-language-japanese@3
-
-# or
-
 npm install @bicstone/ra-language-japanese@3
+# or
+yarn add @bicstone/ra-language-japanese@3
+# or
+pnpm add @bicstone/ra-language-japanese@3
 ```
 
 ## Usage
