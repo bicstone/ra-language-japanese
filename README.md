@@ -1,6 +1,6 @@
 # Japanese Messages for React-Admin
 
-[![Deploy to Production (main)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-prod.yml/badge.svg?branch=main)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-prod.yml) [![Deploy to Staging (stg)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-stg.yml/badge.svg?branch=main)](https://github.com/bicstone/portfolio/actions/workflows/deploy-to-stg.yml) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
+[![Publish (latest)](https://github.com/bicstone/ra-language-japanese/actions/workflows/publish-latest.yml/badge.svg)](https://github.com/bicstone/ra-language-japanese/actions/workflows/publish-latest.yml) [![Publish (next)](https://github.com/bicstone/ra-language-japanese/actions/workflows/publish-next.yml/badge.svg)](https://github.com/bicstone/ra-language-japanese/actions/workflows/publish-next.yml) [![npm](https://img.shields.io/npm/dm/@bicstone/ra-language-japanese.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/ra-language-japanese)
 
 Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
