@@ -15,6 +15,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.6.1",
 		"all-contributors-cli": "6.26.1",
+		"prettier": "3.2.5",
 		"typescript": "5.4.2"
 	},
 	"files": ["LICENSE", "*.md", "lib", "src"],
@@ -34,7 +35,10 @@
 		"url": "git+https://github.com/bicstone/ra-language-japanese.git"
 	},
 	"scripts": {
-		"build": "biome check . --apply && tsc"
+		"check": "biome check .",
+		"apply": "biome check . --apply",
+		"build": "tsc",
+		"preinstall": "npx only-allow pnpm"
 	},
 	"sideEffects": false,
 	"volta": {

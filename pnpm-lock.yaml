@@ -16,6 +16,9 @@ devDependencies:
   all-contributors-cli:
     specifier: 6.26.1
     version: 6.26.1
+  prettier:
+    specifier: 3.2.5
+    version: 3.2.5
   typescript:
     specifier: 5.4.2
     version: 5.4.2
@@ -553,6 +556,12 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
