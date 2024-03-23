@@ -16,13 +16,9 @@ jobs:
       with:
         node-version-file: ".node-version"
         registry-url: 'https://registry.npmjs.org'
-        cache: 'npm'
-    - run: npm ci
-    # TODO: Uncomment the following line to run npm audit 
-    # 2 packages have invalid attestations:
-    # @biomejs/biome@1.6.1 (https://registry.npmjs.org/)
-    # @biomejs/cli-win32-x64@1.6.1 (https://registry.npmjs.org/)
-    # - run: npm audit signatures
-    - run: npm publish --provenance --tag=next
+        cache: 'pnpm'
+    - run: pnpm install --frozen-lockfile
+    - run: pnpm publish --tag=next
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        NPM_CONFIG_PROVENANCE: true
