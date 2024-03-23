@@ -34,10 +34,10 @@ pnpm add @bicstone/ra-language-japanese@3
 ### version 3 or 4
 
 ```jsx
-import polyglotI18nProvider from 'ra-i18n-polyglot';
-import japaneseMessages from '@bicstone/ra-language-japanese';
+import polyglotI18nProvider from "ra-i18n-polyglot";
+import japaneseMessages from "@bicstone/ra-language-japanese";
 
-const i18nProvider = polyglotI18nProvider(() => japaneseMessages, 'ja');
+const i18nProvider = polyglotI18nProvider(() => japaneseMessages, "ja");
 
 <Admin i18nProvider={i18nProvider}>
   ...
@@ -49,7 +49,7 @@ See React-admin [documentation](https://marmelab.com/react-admin/Translation.htm
 ### version 2
 
 ```jsx
-import japaneseMessages from '@bicstone/ra-language-japanese';
+import japaneseMessages from "@bicstone/ra-language-japanese";
 
 const i18nProvider = () => japaneseMessages;
 

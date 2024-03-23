@@ -1,36 +1,36 @@
 {
-  "extends": ["github>bicstone/renovate-config"],
-  "baseBranches": ["main", "next"],
-  "packageRules": [
-    {
-      "groupName": "main dependencies",
-      "matchBaseBranches": ["main"],
-      "matchDepTypes": ["dependencies"],
-      "schedule": ["before 6am"],
-      "rangeStrategy": "update-lockfile"
-    },
-    {
-      "groupName": "main devDependencies",
-      "matchBaseBranches": ["main"],
-      "matchDepTypes": ["devDependencies"],
-      "schedule": ["before 6am on Saturday"],
-      "rangeStrategy": "pin"
-    },
-    {
-      "groupName": "next dependencies",
-      "matchBaseBranches": ["next"],
-      "matchDepTypes": ["dependencies"],
-      "schedule": ["before 6am"],
-      "rangeStrategy": "update-lockfile",
-      "ignoreUnstable": false,
-      "followTag": "next"
-    },
-    {
-      "groupName": "next devDependencies",
-      "matchBaseBranches": ["next"],
-      "matchDepTypes": ["devDependencies"],
-      "schedule": ["before 6am on Saturday"],
-      "rangeStrategy": "pin"
-    }
-  ]
+	"baseBranches": ["main", "next"],
+	"extends": ["github>bicstone/renovate-config"],
+	"packageRules": [
+		{
+			"groupName": "main dependencies",
+			"matchBaseBranches": ["main"],
+			"matchDepTypes": ["dependencies"],
+			"rangeStrategy": "update-lockfile",
+			"schedule": ["before 6am"]
+		},
+		{
+			"groupName": "main devDependencies",
+			"matchBaseBranches": ["main"],
+			"matchDepTypes": ["devDependencies"],
+			"rangeStrategy": "pin",
+			"schedule": ["before 6am on Saturday"]
+		},
+		{
+			"followTag": "next",
+			"groupName": "next dependencies",
+			"ignoreUnstable": false,
+			"matchBaseBranches": ["next"],
+			"matchDepTypes": ["dependencies"],
+			"rangeStrategy": "update-lockfile",
+			"schedule": ["before 6am"]
+		},
+		{
+			"groupName": "next devDependencies",
+			"matchBaseBranches": ["next"],
+			"matchDepTypes": ["devDependencies"],
+			"rangeStrategy": "pin",
+			"schedule": ["before 6am on Saturday"]
+		}
+	]
 }
