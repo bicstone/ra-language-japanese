@@ -16,7 +16,7 @@
 		"@biomejs/biome": "1.6.4",
 		"all-contributors-cli": "6.26.1",
 		"prettier": "3.2.5",
-		"typescript": "5.4.4"
+		"typescript": "5.4.5"
 	},
 	"files": ["LICENSE", "*.md", "lib", "src"],
 	"homepage": "https://github.com/bicstone/ra-language-japanese/",
