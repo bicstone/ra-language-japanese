@@ -10,7 +10,7 @@ importers:
     dependencies:
       ra-core:
         specifier: '>=4.0.0-alpha.2'
-        version: 4.16.16(history@5.3.0)(react-dom@18.2.0(react@18.2.0))(react-hook-form@7.51.2(react@18.2.0))(react-router-dom@6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-router@6.22.3(react@18.2.0))(react@18.2.0)
+        version: 4.16.17(history@5.3.0)(react-dom@18.2.0(react@18.2.0))(react-hook-form@7.51.2(react@18.2.0))(react-router-dom@6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-router@6.22.3(react@18.2.0))(react@18.2.0)
     devDependencies:
       '@biomejs/biome':
         specifier: 1.7.2
@@ -31,8 +31,8 @@ packages:
     resolution: {integrity: sha512-+BIznRzyqBf+2wCTxcKE3wDjfGeCoVE61KSHGpkzqrLi8qxqFwBeUFyId2cxkTmm55fzDGnm0+yCxaxygrLUnQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.24.4':
-    resolution: {integrity: sha512-dkxf7+hn8mFBwKjs9bvBlArzLVxVbS8usaPUDd5p2a9JCL9tB8OaOVN1isD4+Xyk4ns89/xeOmbQvgdK7IIVdA==}
+  '@babel/runtime@7.24.5':
+    resolution: {integrity: sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==}
     engines: {node: '>=6.9.0'}
 
   '@biomejs/biome@1.7.2':
@@ -361,8 +361,8 @@ packages:
     resolution: {integrity: sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==}
     engines: {node: '>=6'}
 
-  ra-core@4.16.16:
-    resolution: {integrity: sha512-WDeS68tx3VNWc57SAnpwMWftHIop18jxUyn5LYqA529j5XIjx8e3T2M6GtpElESLFZzpfS7O7Puo0TZBzA05zw==}
+  ra-core@4.16.17:
+    resolution: {integrity: sha512-85dpwo6D5nv/UTJJxBqYFWP8H4O4bc+prL8ar8Trb4om2X75zK6FsW/4ZXKlhrRPM+fP+s/v3xYrFjTo/zT4hQ==}
     peerDependencies:
       history: ^5.1.0
       react: ^16.9.0 || ^17.0.0 || ^18.0.0
@@ -449,8 +449,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
   set-blocking@2.0.0:
     resolution: {integrity: sha512-KiKBS8AnWGEyLzofFfmvKwpdPzqiy16LvQfK3yv/fVH7Bj13/wl3JSR1J+rfgRE9q7xUJK4qvgS8raSOeLUehw==}
@@ -536,7 +536,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@babel/runtime@7.24.4':
+  '@babel/runtime@7.24.5':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -617,7 +617,7 @@ snapshots:
 
   broadcast-channel@3.7.0:
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       detect-node: 2.1.0
       js-sha3: 0.8.0
       microseconds: 0.2.0
@@ -659,7 +659,7 @@ snapshots:
 
   date-fns@2.30.0:
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
 
   decamelize@1.2.0: {}
 
@@ -709,7 +709,7 @@ snapshots:
 
   history@5.3.0:
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
 
   iconv-lite@0.4.24:
     dependencies:
@@ -766,7 +766,7 @@ snapshots:
 
   match-sorter@6.3.4:
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       remove-accents: 0.5.0
 
   microseconds@0.2.0: {}
@@ -837,7 +837,7 @@ snapshots:
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
 
-  ra-core@4.16.16(history@5.3.0)(react-dom@18.2.0(react@18.2.0))(react-hook-form@7.51.2(react@18.2.0))(react-router-dom@6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-router@6.22.3(react@18.2.0))(react@18.2.0):
+  ra-core@4.16.17(history@5.3.0)(react-dom@18.2.0(react@18.2.0))(react-hook-form@7.51.2(react@18.2.0))(react-router-dom@6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-router@6.22.3(react@18.2.0))(react@18.2.0):
     dependencies:
       clsx: 1.2.1
       date-fns: 2.30.0
@@ -862,7 +862,7 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
       react: 18.2.0
-      scheduler: 0.23.0
+      scheduler: 0.23.2
 
   react-hook-form@7.51.2(react@18.2.0):
     dependencies:
@@ -874,7 +874,7 @@ snapshots:
 
   react-query@3.39.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       broadcast-channel: 3.7.0
       match-sorter: 6.3.4
       react: 18.2.0
@@ -922,7 +922,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  scheduler@0.23.0:
+  scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
 
@@ -964,7 +964,7 @@ snapshots:
 
   unload@2.2.0:
     dependencies:
-      '@babel/runtime': 7.24.4
+      '@babel/runtime': 7.24.5
       detect-node: 2.1.0
 
   webidl-conversions@3.0.1: {}
