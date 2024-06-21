@@ -1,7 +1,7 @@
 {
 	"name": "@bicstone/ra-language-japanese",
 	"description": "Japanese messages for react-admin",
-	"version": "4.13.1-rc.2",
+	"version": "5.0.0",
 	"author": "Oishi Takanori",
 	"bugs": {
 		"url": "https://github.com/bicstone/ra-language-japanese/issues"
@@ -13,10 +13,10 @@
 		"ra-core": ">=4.0.0-alpha.2"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.8.1",
+		"@biomejs/biome": "1.8.2",
 		"all-contributors-cli": "6.26.1",
 		"prettier": "3.3.2",
-		"typescript": "5.4.5"
+		"typescript": "5.5.2"
 	},
 	"files": ["LICENSE", "*.md", "lib", "src"],
 	"homepage": "https://github.com/bicstone/ra-language-japanese/",
