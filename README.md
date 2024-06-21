@@ -9,7 +9,7 @@ Japanese messages for [React-admin](https://github.com/marmelab/react-admin).
 
 ## Installation
 
-### version 4
+### version 4 or 5
 
 ```sh
 npm install @bicstone/ra-language-japanese@latest
@@ -31,7 +31,7 @@ pnpm add @bicstone/ra-language-japanese@3
 
 ## Usage
 
-### version 3 or 4
+### versions 3 to 5
 
 ```jsx
 import polyglotI18nProvider from "ra-i18n-polyglot";
