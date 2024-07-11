@@ -7,7 +7,7 @@ settings:
 dependencies:
   ra-core:
     specifier: '>=4.0.0-alpha.2'
-    version: 5.0.3(react-dom@18.3.1)(react-hook-form@7.52.1)(react-router-dom@6.24.1)(react-router@6.24.1)(react@18.3.1)
+    version: 5.0.4(react-dom@18.3.1)(react-hook-form@7.52.1)(react-router-dom@6.24.1)(react-router@6.24.1)(react@18.3.1)
 
 devDependencies:
   '@biomejs/biome':
@@ -30,6 +30,14 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
+    dev: true
+
+  /@babel/runtime@7.24.8:
+    resolution: {integrity: sha512-5F7SDGs1T72ZczbRwbGO9lQi0NLjQxzl6i4lJxLxfW9U5UluCSyEJeniWvnhl3/euNiqQVbo8zruhsDfid0esA==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.14.1
+    dev: false
 
   /@biomejs/biome@1.8.3:
     resolution: {integrity: sha512-/uUV3MV+vyAczO+vKrPdOW0Iaet7UnJMU4bNMinggGJTAnBPjCoLEYcyYtYHNnUNYlv4xZMH6hVIQCAozq8d5w==}
@@ -124,16 +132,16 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
-  /@tanstack/query-core@5.50.1:
-    resolution: {integrity: sha512-lpfhKPrJlyV2DSVcQb/HuozH3Av3kws4ge22agx+lNGpFkS4vLZ7St0l3GLwlAD+bqB+qXGex3JdRKUNtMviEQ==}
+  /@tanstack/query-core@5.51.1:
+    resolution: {integrity: sha512-fJBMQMpo8/KSsWW5ratJR5+IFr7YNJ3K2kfP9l5XObYHsgfVy1w3FJUWU4FT2fj7+JMaEg33zOcNDBo0LMwHnw==}
     dev: false
 
-  /@tanstack/react-query@5.50.1(react@18.3.1):
-    resolution: {integrity: sha512-s0DW3rVBDPReDDovUjVqItVa3R2nPfUANK9nqGvarO2DwTiY9U4EBTsqizMxItRCoGgK5apeM7D3mxlHrSKpdQ==}
+  /@tanstack/react-query@5.51.1(react@18.3.1):
+    resolution: {integrity: sha512-s47HKFnQ4HOJAHoIiXcpna/roMMPZJPy6fJ6p4ZNVn8+/onlLBEDd1+xc8OnDuwgvecqkZD7Z2mnSRbcWefrKw==}
     peerDependencies:
       react: ^18.0.0
     dependencies:
-      '@tanstack/query-core': 5.50.1
+      '@tanstack/query-core': 5.51.1
       react: 18.3.1
     dev: false
 
@@ -471,8 +479,8 @@ packages:
       strict-uri-encode: 2.0.0
     dev: false
 
-  /ra-core@5.0.3(react-dom@18.3.1)(react-hook-form@7.52.1)(react-router-dom@6.24.1)(react-router@6.24.1)(react@18.3.1):
-    resolution: {integrity: sha512-aTDY4CtX/TLPslGqCABPMFQR2KeiTlF1M8xJ/9SJpe7Cpd244AY9Gbtgx0YjEsW+HeI4/OSQXMEj+Sz0l0Xtiw==}
+  /ra-core@5.0.4(react-dom@18.3.1)(react-hook-form@7.52.1)(react-router-dom@6.24.1)(react-router@6.24.1)(react@18.3.1):
+    resolution: {integrity: sha512-NGiogs6pxkQEnVymPlYBwMaiE/GXV5yxcTT3EKQB6IVhvCDYCu2qqBTvKjKLuMcAEirK2gnR5pIuitF1ZmrGmg==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -480,7 +488,7 @@ packages:
       react-router: ^6.22.0
       react-router-dom: ^6.22.0
     dependencies:
-      '@tanstack/react-query': 5.50.1(react@18.3.1)
+      '@tanstack/react-query': 5.51.1(react@18.3.1)
       clsx: 2.1.1
       date-fns: 3.6.0
       eventemitter3: 5.0.1
@@ -513,7 +521,7 @@ packages:
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-      '@babel/runtime': 7.24.7
+      '@babel/runtime': 7.24.8
       react: 18.3.1
     dev: false
 
