@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
 		"all-contributors-cli": "6.26.1",
-		"prettier": "3.3.2",
+		"prettier": "3.3.3",
 		"typescript": "5.5.3"
 	},
 	"files": ["LICENSE", "*.md", "lib", "src"],
