@@ -13,10 +13,10 @@
 		"ra-core": ">=4.0.0-alpha.2"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.8.3",
+		"@biomejs/biome": "1.9.0",
 		"all-contributors-cli": "6.26.1",
 		"prettier": "3.3.3",
-		"typescript": "5.5.4"
+		"typescript": "5.6.2"
 	},
 	"files": ["LICENSE", "*.md", "lib", "src"],
 	"homepage": "https://github.com/bicstone/ra-language-japanese/",
