@@ -106,6 +106,12 @@ const messages: Required<TranslationMessages> = {
 				"行った変更が保存されていません。このページから移動しますか？",
 		},
 		navigation: {
+			clear_filters: "検索条件を削除",
+			// 破壊的変更のため、次のメジャーアップデートで変更
+			// "現在の検索条件では%{resource}の結果が見つかりませんでした"
+			no_filtered_results: "現在の検索条件では結果が見つかりませんでした",
+			// 破壊的変更のため、次のメジャーアップデートで変更
+			// "%{resource}の結果が見つかりませんでした"
 			no_results: "結果が見つかりませんでした",
 			no_more_results:
 				"%{page}ページは最大のページ数を超えています。前のページに戻ってください",
