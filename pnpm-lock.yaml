@@ -10,7 +10,7 @@ importers:
     dependencies:
       ra-core:
         specifier: '>=4.0.0-alpha.2'
-        version: 5.2.2(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
+        version: 5.2.3(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.3
@@ -31,8 +31,8 @@ packages:
     resolution: {integrity: sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.25.6':
-    resolution: {integrity: sha512-VBj9MYyDb9tuLq7yzqjgzt6Q+IBQLrGZfdjOekyEirZPHxXWoTSGUTMrpsfi58Up73d13NfYLv8HT9vmznjzhQ==}
+  '@babel/runtime@7.25.7':
+    resolution: {integrity: sha512-FjoyLe754PMiYsFaN5C94ttGiOmBNYTf6pLr4xXHAT5uctHb092PBszndLDR5XA/jghQvn4n7JMHl7dmTgbm9w==}
     engines: {node: '>=6.9.0'}
 
   '@biomejs/biome@1.9.3':
@@ -92,11 +92,11 @@ packages:
     resolution: {integrity: sha512-baiMx18+IMuD1yyvOGaHM9QrVUPGGG0jC+z+IPHnRJWUAUvaKuWKyE8gjDj2rzv3sz9zOGoRSPgeBVHRhZnBlA==}
     engines: {node: '>=14.0.0'}
 
-  '@tanstack/query-core@5.59.0':
-    resolution: {integrity: sha512-WGD8uIhX6/deH/tkZqPNcRyAhDUqs729bWKoByYHSogcshXfFbppOdTER5+qY7mFvu8KEFJwT0nxr8RfPTVh0Q==}
+  '@tanstack/query-core@5.59.9':
+    resolution: {integrity: sha512-vFGnblfJOKlOPyTR5M0ohWKb/03eGubh5KuGyzsDfc7VQ6F0nsB75kQIoLpwp3Wfj6fKv0wGoTUX8BsIfhxDfw==}
 
-  '@tanstack/react-query@5.59.0':
-    resolution: {integrity: sha512-YDXp3OORbYR+8HNQx+lf4F73NoiCmCcSvZvgxE29OifmQFk0sBlO26NWLHpcNERo92tVk3w+JQ53/vkcRUY1hA==}
+  '@tanstack/react-query@5.59.9':
+    resolution: {integrity: sha512-g2cbiw/ZIIrnUaQqhGtarTAsuLdKDNLtY5HNfRHVWY9kHDj96M4qs4ygJxHc119tPQpzZe4i9W7d2Gc2Gvng2A==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -305,8 +305,8 @@ packages:
     resolution: {integrity: sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==}
     engines: {node: '>=6'}
 
-  ra-core@5.2.2:
-    resolution: {integrity: sha512-X2wZ5cg+TYDCuyO0aFAhvg+aqxb2/xQzxCuTnC3HR+9hCYXjckwjQAs3yjJwkdLLrOAS+w8/aiKMy5tZPbh95Q==}
+  ra-core@5.2.3:
+    resolution: {integrity: sha512-uaJX54igNS9VPK1jiSfwjtDaW6P70cxuZvRBBPqqNoN04fldVHUKUaC7wY/LsWnIRCPATz+TU93RaKYDUNw8FQ==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -456,7 +456,7 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@babel/runtime@7.25.6':
+  '@babel/runtime@7.25.7':
     dependencies:
       regenerator-runtime: 0.14.1
 
@@ -497,11 +497,11 @@ snapshots:
 
   '@remix-run/router@1.19.2': {}
 
-  '@tanstack/query-core@5.59.0': {}
+  '@tanstack/query-core@5.59.9': {}
 
-  '@tanstack/react-query@5.59.0(react@18.3.1)':
+  '@tanstack/react-query@5.59.9(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.59.0
+      '@tanstack/query-core': 5.59.9
       react: 18.3.1
 
   all-contributors-cli@6.26.1:
@@ -685,9 +685,9 @@ snapshots:
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
 
-  ra-core@5.2.2(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
+  ra-core@5.2.3(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@tanstack/react-query': 5.59.0(react@18.3.1)
+      '@tanstack/react-query': 5.59.9(react@18.3.1)
       clsx: 2.1.1
       date-fns: 3.6.0
       eventemitter3: 5.0.1
@@ -712,7 +712,7 @@ snapshots:
 
   react-error-boundary@4.0.13(react@18.3.1):
     dependencies:
-      '@babel/runtime': 7.25.6
+      '@babel/runtime': 7.25.7
       react: 18.3.1
 
   react-hook-form@7.53.0(react@18.3.1):
