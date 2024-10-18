@@ -58,6 +58,8 @@ const messages: Required<TranslationMessages> = {
 			show: "%{name} #%{id}",
 			empty: "%{name}はありません",
 			invite: "作成しますか？",
+			access_denied: "このページは表示できません",
+			authentication_error: "認証エラー",
 		},
 		input: {
 			file: {
@@ -104,6 +106,9 @@ const messages: Required<TranslationMessages> = {
 			yes: "はい",
 			unsaved_changes:
 				"行った変更が保存されていません。このページから移動しますか？",
+			access_denied: "このページを表示する権限がありません",
+			authentication_error:
+				"認証サーバーでエラーが発生し、このページを表示する権限があるか確認できませんでした",
 		},
 		navigation: {
 			clear_filters: "検索条件を削除",
