@@ -10,7 +10,7 @@ importers:
     dependencies:
       ra-core:
         specifier: '>=4.0.0-alpha.2'
-        version: 5.4.2(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
+        version: 5.4.3(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -92,11 +92,11 @@ packages:
     resolution: {integrity: sha512-baiMx18+IMuD1yyvOGaHM9QrVUPGGG0jC+z+IPHnRJWUAUvaKuWKyE8gjDj2rzv3sz9zOGoRSPgeBVHRhZnBlA==}
     engines: {node: '>=14.0.0'}
 
-  '@tanstack/query-core@5.62.3':
-    resolution: {integrity: sha512-Jp/nYoz8cnO7kqhOlSv8ke/0MJRJVGuZ0P/JO9KQ+f45mpN90hrerzavyTKeSoT/pOzeoOUkv1Xd0wPsxAWXfg==}
+  '@tanstack/query-core@5.62.8':
+    resolution: {integrity: sha512-4fV31vDsUyvNGrKIOUNPrZztoyL187bThnoQOvAXEVlZbSiuPONpfx53634MKKdvsDir5NyOGm80ShFaoHS/mw==}
 
-  '@tanstack/react-query@5.62.3':
-    resolution: {integrity: sha512-y2zDNKuhgiuMgsKkqd4AcsLIBiCfEO8U11AdrtAUihmLbRNztPrlcZqx2lH1GacZsx+y1qRRbCcJLYTtF1vKsw==}
+  '@tanstack/react-query@5.62.8':
+    resolution: {integrity: sha512-8TUstKxF/fysHonZsWg/hnlDVgasTdHx6Q+f1/s/oPKJBJbKUWPZEHwLTMOZgrZuroLMiqYKJ9w69Abm8mWP0Q==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -302,8 +302,8 @@ packages:
     resolution: {integrity: sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==}
     engines: {node: '>=6'}
 
-  ra-core@5.4.2:
-    resolution: {integrity: sha512-HxfxhUVl0U6rjobb50wiv3IblnRDQPqHXXv3WNZaUK2/bAZ5qX8qfSHe96quhrzSXbv5FHS4G3aPRxANXWVauQ==}
+  ra-core@5.4.3:
+    resolution: {integrity: sha512-Jf9y7e7R0qKw9xd5cfGHg9jpYtphLjbRjnaZjDA2VjB/a+N37yl9krJAsUv2HA8nubhOO6RCkJE61m4Wx8rv9Q==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -494,11 +494,11 @@ snapshots:
 
   '@remix-run/router@1.19.2': {}
 
-  '@tanstack/query-core@5.62.3': {}
+  '@tanstack/query-core@5.62.8': {}
 
-  '@tanstack/react-query@5.62.3(react@18.3.1)':
+  '@tanstack/react-query@5.62.8(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.62.3
+      '@tanstack/query-core': 5.62.8
       react: 18.3.1
 
   all-contributors-cli@6.26.1:
@@ -680,9 +680,9 @@ snapshots:
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
 
-  ra-core@5.4.2(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
+  ra-core@5.4.3(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@tanstack/react-query': 5.62.3(react@18.3.1)
+      '@tanstack/react-query': 5.62.8(react@18.3.1)
       clsx: 2.1.1
       date-fns: 3.6.0
       eventemitter3: 5.0.1
