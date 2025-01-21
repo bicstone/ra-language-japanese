@@ -1,7 +1,7 @@
 {
 	"name": "@bicstone/ra-language-japanese",
 	"description": "Japanese messages for react-admin",
-	"version": "5.3.0",
+	"version": "5.5.0",
 	"author": "Oishi Takanori",
 	"bugs": {
 		"url": "https://github.com/bicstone/ra-language-japanese/issues"
@@ -42,6 +42,8 @@
 	},
 	"sideEffects": false,
 	"volta": {
-		"node": "22.13.0"
-	}
+		"node": "22.13.0",
+		"pnpm": "9.15.4"
+	},
+	"packageManager": "pnpm@9.15.4"
 }
