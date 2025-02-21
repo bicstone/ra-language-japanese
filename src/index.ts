@@ -142,6 +142,7 @@ const messages: Required<TranslationMessages> = {
 			user_menu: "プロフィール",
 			username: "ユーザー名",
 			password: "パスワード",
+			email: "メールアドレス",
 			sign_in: "ログイン",
 			sign_in_error: "認証に失敗しました。入力を確認してください",
 			logout: "ログアウト",
