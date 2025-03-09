@@ -1,7 +1,7 @@
 {
 	"name": "@bicstone/ra-language-japanese",
 	"description": "Japanese messages for react-admin",
-	"version": "5.6.0",
+	"version": "5.6.3",
 	"author": "Oishi Takanori",
 	"bugs": {
 		"url": "https://github.com/bicstone/ra-language-japanese/issues"
@@ -45,5 +45,8 @@
 		"node": "22.14.0",
 		"pnpm": "10.5.2"
 	},
-	"packageManager": "pnpm@10.5.2"
+	"packageManager": "pnpm@10.5.2",
+	"pnpm": {
+		"onlyBuiltDependencies": ["@biomejs/biome"]
+	}
 }
