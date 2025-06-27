@@ -18,7 +18,12 @@
 		"prettier": "3.5.3",
 		"typescript": "5.8.3"
 	},
-	"files": ["LICENSE", "*.md", "lib", "src"],
+	"files": [
+		"LICENSE",
+		"*.md",
+		"lib",
+		"src"
+	],
 	"homepage": "https://github.com/bicstone/ra-language-japanese/",
 	"keywords": [
 		"admin-on-rest",
@@ -36,7 +41,7 @@
 	},
 	"scripts": {
 		"check": "biome check .",
-		"apply": "biome check . --apply",
+		"write": "biome check . --write",
 		"build": "tsc",
 		"preinstall": "npx only-allow pnpm"
 	},
@@ -47,6 +52,8 @@
 	},
 	"packageManager": "pnpm@10.12.1",
 	"pnpm": {
-		"onlyBuiltDependencies": ["@biomejs/biome"]
+		"onlyBuiltDependencies": [
+			"@biomejs/biome"
+		]
 	}
 }
