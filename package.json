@@ -7,10 +7,10 @@
 		"url": "https://github.com/bicstone/ra-language-japanese/issues"
 	},
 	"peerDependencies": {
-		"ra-core": ">=4.0.0-alpha.2"
+		"ra-core": "^5.0.0"
 	},
 	"dependencies": {
-		"ra-core": ">=4.0.0-alpha.2"
+		"ra-core": "^5.0.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.0.6",
@@ -48,9 +48,9 @@
 	"sideEffects": false,
 	"volta": {
 		"node": "22.17.0",
-		"pnpm": "10.12.4"
+		"pnpm": "10.13.1"
 	},
-	"packageManager": "pnpm@10.12.4",
+	"packageManager": "pnpm@10.13.1",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@biomejs/biome"
