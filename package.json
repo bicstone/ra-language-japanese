@@ -41,7 +41,6 @@
 	},
 	"scripts": {
 		"check": "biome check .",
-		"write": "biome check . --write",
 		"build": "tsc",
 		"preinstall": "npx only-allow pnpm"
 	},

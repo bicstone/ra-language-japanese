@@ -14,7 +14,7 @@ Pull Requests are always welcome, but please discuss larger changes via issue be
 1. Install the dependencies with pnpm. `pnpm ci`
 1. Create a new topic branch. `git checkout -b fix/topic`
 1. Make changes `/src/index.tx` .
-1. **Run format & build.** `pnpm run write && pnpm run build`
+1. **Run format & build.** `pnpm run check --write && pnpm run build`
 1. Commit and push. `git push -u origin HEAD`
 1. Make a Pull Request.
 
