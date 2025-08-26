@@ -151,7 +151,7 @@ const messages: Required<TranslationMessages> = {
 			logout: "ログアウト",
 		},
 		sort: {
-			sort_by: "%{field}を%{order}で並び替え中",
+			sort_by: "%{field}を%{order}で並び替える",
 			ASC: "昇順",
 			DESC: "降順",
 		},
