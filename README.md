@@ -80,6 +80,7 @@ Thanks goes to all the people who contribute.
       <td align="center" valign="top" width="14.28%"><a href="https://ohbarye.github.io/"><img src="https://avatars.githubusercontent.com/u/1811616?v=4?s=100" width="100px;" alt="Masato Ohba"/><br /><sub><b>Masato Ohba</b></sub></a><br /><a href="#maintenance-ohbarye" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/nerixim"><img src="https://avatars.githubusercontent.com/u/26106502?v=4?s=100" width="100px;" alt="Nikita Kamaev"/><br /><sub><b>Nikita Kamaev</b></sub></a><br /><a href="#maintenance-nerixim" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://stenyan.dev"><img src="https://avatars.githubusercontent.com/u/3520520?v=4?s=100" width="100px;" alt="stefafafan"/><br /><sub><b>stefafafan</b></sub></a><br /><a href="#maintenance-stefafafan" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kadoya-water-cell"><img src="https://avatars.githubusercontent.com/u/151887440?v=4?s=100" width="100px;" alt="kadoya-water-cell"/><br /><sub><b>kadoya-water-cell</b></sub></a><br /><a href="#maintenance-kadoya-water-cell" title="Maintenance">🚧</a></td>
     </tr>
   </tbody>
 </table>
