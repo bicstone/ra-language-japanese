@@ -59,6 +59,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "kadoya-water-cell",
+      "name": "kadoya-water-cell",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151887440?v=4",
+      "profile": "https://github.com/kadoya-water-cell",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
