@@ -1,49 +1,75 @@
 {
-	"commit": false,
-	"commitConvention": "eslint",
-	"contributors": [
-		{
-			"avatar_url": "https://avatars.githubusercontent.com/u/47806818?v=4",
-			"contributions": ["code", "doc", "maintenance", "platform", "review"],
-			"login": "bicstone",
-			"name": "Oishi Takanori",
-			"profile": "https://bicstone.me/"
-		},
-		{
-			"avatar_url": "https://avatars.githubusercontent.com/u/26852981?v=4",
-			"contributions": ["doc"],
-			"login": "toknsi",
-			"name": "toknsi",
-			"profile": "https://github.com/toknsi"
-		},
-		{
-			"avatar_url": "https://avatars.githubusercontent.com/u/5938690?v=4",
-			"contributions": ["doc"],
-			"login": "yukinobu",
-			"name": "Yukinobu Nagayasu",
-			"profile": "https://www.yukinobu.jp/tdiary/"
-		},
-		{
-			"avatar_url": "https://avatars.githubusercontent.com/u/1811616?v=4",
-			"contributions": ["maintenance"],
-			"login": "ohbarye",
-			"name": "Masato Ohba",
-			"profile": "https://ohbarye.github.io/"
-		},
-		{
-			"avatar_url": "https://avatars.githubusercontent.com/u/26106502?v=4",
-			"contributions": ["maintenance"],
-			"login": "nerixim",
-			"name": "Nikita Kamaev",
-			"profile": "https://github.com/nerixim"
-		}
-	],
-	"contributorsPerLine": 7,
-	"files": ["README.md"],
-	"imageSize": 100,
-	"projectName": "ra-language-japanese",
-	"projectOwner": "bicstone",
-	"repoHost": "https://github.com",
-	"repoType": "github",
-	"skipCi": true
+  "commit": false,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/u/47806818?v=4",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "platform",
+        "review"
+      ],
+      "login": "bicstone",
+      "name": "Oishi Takanori",
+      "profile": "https://bicstone.me/"
+    },
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/u/26852981?v=4",
+      "contributions": [
+        "doc"
+      ],
+      "login": "toknsi",
+      "name": "toknsi",
+      "profile": "https://github.com/toknsi"
+    },
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/u/5938690?v=4",
+      "contributions": [
+        "doc"
+      ],
+      "login": "yukinobu",
+      "name": "Yukinobu Nagayasu",
+      "profile": "https://www.yukinobu.jp/tdiary/"
+    },
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/u/1811616?v=4",
+      "contributions": [
+        "maintenance"
+      ],
+      "login": "ohbarye",
+      "name": "Masato Ohba",
+      "profile": "https://ohbarye.github.io/"
+    },
+    {
+      "avatar_url": "https://avatars.githubusercontent.com/u/26106502?v=4",
+      "contributions": [
+        "maintenance"
+      ],
+      "login": "nerixim",
+      "name": "Nikita Kamaev",
+      "profile": "https://github.com/nerixim"
+    },
+    {
+      "login": "stefafafan",
+      "name": "stefafafan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3520520?v=4",
+      "profile": "https://stenyan.dev",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "projectName": "ra-language-japanese",
+  "projectOwner": "bicstone",
+  "repoHost": "https://github.com",
+  "repoType": "github",
+  "skipCi": true,
+  "commitType": "docs"
 }
