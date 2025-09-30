@@ -169,6 +169,7 @@ const messages: Required<TranslationMessages> = {
 			logged_out: "認証に失敗しました。再度ログインしてください",
 			not_authorized: "このページにアクセスする権限がありません",
 			application_update_available: "新しいバージョンが利用可能です",
+			offline: "オフラインです。データを取得できませんでした",
 		},
 		validation: {
 			required: "必須",
