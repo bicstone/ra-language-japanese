@@ -10,7 +10,7 @@ importers:
     dependencies:
       ra-core:
         specifier: ^5.0.0
-        version: 5.11.3(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
+        version: 5.11.4(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@biomejs/biome':
         specifier: 2.2.4
@@ -298,8 +298,8 @@ packages:
     resolution: {integrity: sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==}
     engines: {node: '>=6'}
 
-  ra-core@5.11.3:
-    resolution: {integrity: sha512-n6Ut7nZ2f8SvnoqV/5NC/RYcrPJh0WykHV5UJ+cpXALzUtBEih51L9qZB7dyhfO0da04Er9kiqF7AojZPlz8dA==}
+  ra-core@5.11.4:
+    resolution: {integrity: sha512-rLkh/jWtmsaDWv+oL4Qh7Mzfmt2gttVqi6mGfYCL2/vrk4SGc6t/cXV3fVisEuhxITWfGruUrocC3qvmBlbErw==}
     peerDependencies:
       react: ^18.0.0 || ^19.0.0
       react-dom: ^18.0.0 || ^19.0.0
@@ -672,7 +672,7 @@ snapshots:
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
 
-  ra-core@5.11.3(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
+  ra-core@5.11.4(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
     dependencies:
       '@tanstack/react-query': 5.90.2(react@18.3.1)
       date-fns: 3.6.0
