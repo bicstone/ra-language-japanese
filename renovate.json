@@ -7,7 +7,8 @@
 			"matchBaseBranches": ["main"],
 			"matchDepTypes": ["dependencies"],
 			"rangeStrategy": "update-lockfile",
-			"schedule": ["before 6am"]
+			"schedule": ["before 6am"],
+			"minimumReleaseAge": "0 seconds"
 		},
 		{
 			"groupName": "main devDependencies",
@@ -23,7 +24,8 @@
 			"matchBaseBranches": ["next"],
 			"matchDepTypes": ["dependencies"],
 			"rangeStrategy": "update-lockfile",
-			"schedule": ["before 6am"]
+			"schedule": ["before 6am"],
+			"minimumReleaseAge": "0 seconds"
 		},
 		{
 			"groupName": "next devDependencies",
