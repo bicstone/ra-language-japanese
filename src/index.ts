@@ -43,6 +43,7 @@ const messages: Required<TranslationMessages> = {
 			toggle_theme: "ダークモード切替",
 			select_columns: "列を編集",
 			update_application: "再読み込み",
+			reset: "元に戻す",
 		},
 		boolean: {
 			true: "はい",
