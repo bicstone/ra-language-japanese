@@ -46,7 +46,7 @@
 	},
 	"sideEffects": false,
 	"volta": {
-		"node": "24.11.1",
+		"node": "24.12.0",
 		"pnpm": "10.24.0"
 	},
 	"packageManager": "pnpm@10.24.0",
