@@ -13,9 +13,9 @@
 		"ra-core": "^5.0.0"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.3.11",
+		"@biomejs/biome": "2.3.12",
 		"all-contributors-cli": "6.26.1",
-		"prettier": "3.8.0",
+		"prettier": "3.8.1",
 		"typescript": "5.9.3"
 	},
 	"files": [
