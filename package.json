@@ -16,7 +16,7 @@
 		"@biomejs/biome": "2.4.12",
 		"all-contributors-cli": "6.26.1",
 		"prettier": "3.8.3",
-		"typescript": "5.9.3"
+		"typescript": "6.0.3"
 	},
 	"files": [
 		"LICENSE",
