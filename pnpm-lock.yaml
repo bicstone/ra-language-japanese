@@ -10,7 +10,7 @@ importers:
     dependencies:
       ra-core:
         specifier: ^5.0.0
-        version: 5.14.6(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
+        version: 5.14.7(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@biomejs/biome':
         specifier: 2.4.14
@@ -305,8 +305,8 @@ packages:
     resolution: {integrity: sha512-hh2WYhq4fi8+b+/2Kg9CEge4fDPvHS534aOOvOZeQ3+Vf2mCFsaFBYj0i+iXcAq6I9Vzp5fjMFBlONvayDC1qg==}
     engines: {node: '>=6'}
 
-  ra-core@5.14.6:
-    resolution: {integrity: sha512-/3LOanIhCLTLTpOd6Dma9rsLrksLhqpE5dq6GUW1Xe7jI46xPC/6O5WlqCDwUJqe3aDZG3kJRGu6U8iHb2OU/A==}
+  ra-core@5.14.7:
+    resolution: {integrity: sha512-daHOUEY9nEpBEHBzo1l4kDQ+/dqmYYsUKxWJyeFC2Vd7yh4w48MOBvGJ3nGFYgdLVICDuSl/VUr3kwHWkyfubA==}
     peerDependencies:
       '@tanstack/react-query': ^5.83.0
       react: ^18.0.0 || ^19.0.0
@@ -331,8 +331,8 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
 
-  react-is@19.2.5:
-    resolution: {integrity: sha512-Dn0t8IQhCmeIT3wu+Apm1/YVsJXsGWi6k4sPdnBIdqMVtHtv0IGi6dcpNpNkNac0zB2uUAqNX3MHzN8c+z2rwQ==}
+  react-is@19.2.6:
+    resolution: {integrity: sha512-XjBR15BhXuylgWGuslhDKqlSayuqvqBX91BP8pauG8kd1zY8kotkNWbXksTCNRarse4kuGbe2kIY05ARtwNIvw==}
 
   react-router-dom@6.26.2:
     resolution: {integrity: sha512-z7YkaEW0Dy35T3/QKPYB1LjMK2R1fxnHO8kWpUMTBdfVzZrWOiY9a7CtN8HqdWtDUWd5FY6Dl8HFsqVwH4uOtQ==}
@@ -682,7 +682,7 @@ snapshots:
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
 
-  ra-core@5.14.6(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
+  ra-core@5.14.7(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.53.0(react@18.3.1))(react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@6.26.2(react@18.3.1))(react@18.3.1):
     dependencies:
       '@tanstack/react-query': 5.90.10(react@18.3.1)
       date-fns: 3.6.0
@@ -695,7 +695,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-error-boundary: 4.1.2(react@18.3.1)
       react-hook-form: 7.53.0(react@18.3.1)
-      react-is: 19.2.5
+      react-is: 19.2.6
       react-router: 6.26.2(react@18.3.1)
       react-router-dom: 6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
 
@@ -714,7 +714,7 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  react-is@19.2.5: {}
+  react-is@19.2.6: {}
 
   react-router-dom@6.26.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
