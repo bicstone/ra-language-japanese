@@ -47,9 +47,9 @@
 	"sideEffects": false,
 	"volta": {
 		"node": "24.18.0",
-		"pnpm": "11.11.0"
+		"pnpm": "11.15.0"
 	},
-	"packageManager": "pnpm@11.11.0",
+	"packageManager": "pnpm@11.15.0",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@biomejs/biome"
