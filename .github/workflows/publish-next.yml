@@ -19,7 +19,4 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
         cache: 'pnpm'
     - run: pnpm install --frozen-lockfile
-    - run: pnpm publish --tag=next
-      env:
-        NPM_CONFIG_PROVENANCE: true
-        NPM_CONFIG_GIT_CHECKS: false
+    - run: pnpm publish --tag=next --provenance --no-git-checks
