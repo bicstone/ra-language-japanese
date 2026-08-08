@@ -33,6 +33,12 @@
 			"matchDepTypes": ["devDependencies"],
 			"rangeStrategy": "pin",
 			"schedule": ["before 6am on Saturday"]
+		},
+		{
+			"description": "Disable major updates because zshy, which is used to build this package, does not support the TypeScript 7 compiler API. Remove this rule once https://github.com/colinhacks/zshy/issues/48 is resolved",
+			"matchPackageNames": ["typescript"],
+			"matchUpdateTypes": ["major"],
+			"enabled": false
 		}
 	]
 }
