@@ -54,11 +54,6 @@
 	"type": "module",
 	"zshy": "./src/index.ts",
 	"packageManager": "pnpm@11.17.0",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@biomejs/biome"
-		]
-	},
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.cts",
 	"exports": {
