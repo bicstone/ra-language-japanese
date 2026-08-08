@@ -182,6 +182,7 @@ const messages: Required<TranslationMessages> = {
 			email: "メールアドレスである必要があります",
 			oneOf: "次のいずれかである必要があります: %{options}",
 			regex: "次の正規表現形式にする必要があります: %{pattern}",
+			unique: "重複しない値である必要があります",
 		},
 		saved_queries: {
 			label: "保存した検索条件",
@@ -193,6 +194,12 @@ const messages: Required<TranslationMessages> = {
 			remove_dialog_title: "検索条件を削除",
 			remove_message: "選択した保存検索条件を削除しますか？",
 			help: "検索条件を保存して、あとから同じ条件で検索できます",
+		},
+		guesser: {
+			empty: {
+				title: "表示するデータがありません",
+				message: "dataProviderを確認してください",
+			},
 		},
 		configurable: {
 			customize: "カスタマイズ",
