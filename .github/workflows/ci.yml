@@ -10,6 +10,8 @@ on:
       - main
       - next
       - v*
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -23,3 +25,4 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm run check
       - run: pnpm run build
+      - run: pnpm run check:package

@@ -1,7 +1,7 @@
 {
 	"name": "@bicstone/ra-language-japanese",
 	"description": "Japanese messages for react-admin",
-	"version": "5.12.1",
+	"version": "5.13.0",
 	"author": "Oishi Takanori",
 	"bugs": {
 		"url": "https://github.com/bicstone/ra-language-japanese/issues"
@@ -13,15 +13,19 @@
 		"ra-core": "^5.0.0"
 	},
 	"devDependencies": {
+		"@arethetypeswrong/cli": "0.18.5",
 		"@biomejs/biome": "2.5.6",
 		"all-contributors-cli": "6.26.1",
 		"prettier": "3.9.6",
-		"typescript": "6.0.3"
+		"publint": "0.3.23",
+		"typescript": "6.0.3",
+		"zshy": "0.7.3"
 	},
 	"files": [
 		"LICENSE",
-		"*.md",
-		"lib",
+		"README.md",
+		"SECURITY.md",
+		"dist",
 		"src"
 	],
 	"homepage": "https://github.com/bicstone/ra-language-japanese/",
@@ -34,25 +38,39 @@
 		"japanese"
 	],
 	"license": "MIT",
-	"main": "lib/index.js",
+	"main": "./dist/index.cjs",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/bicstone/ra-language-japanese.git"
 	},
 	"scripts": {
 		"check": "biome check .",
-		"build": "tsc",
-		"preinstall": "npx only-allow pnpm"
+		"check:package": "attw --pack . && publint",
+		"build": "zshy",
+		"postbuild": "node ./scripts/fix-exports.mjs",
+		"prepublishOnly": "pnpm run build"
 	},
 	"sideEffects": false,
-	"volta": {
-		"node": "24.18.0",
-		"pnpm": "11.17.0"
-	},
+	"type": "module",
+	"zshy": "./src/index.ts",
 	"packageManager": "pnpm@11.17.0",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@biomejs/biome"
 		]
+	},
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.cts",
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		}
 	}
 }
