@@ -10,7 +10,7 @@ importers:
     dependencies:
       ra-core:
         specifier: ^5.0.0
-        version: 5.15.2(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.83.0(react@18.3.1))(react-router-dom@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        version: 5.15.3(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.83.0(react@18.3.1))(react-router-dom@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@arethetypeswrong/cli':
         specifier: 0.18.5
@@ -526,8 +526,8 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  ra-core@5.15.2:
-    resolution: {integrity: sha512-Im3dD86gY+tEyVjX1It5sNwnbAjZ6H2L8u8lS/qmsycIiRPXbqoyPhRDu7zpbr5SeRRRBNWyQNg/yVpWj2tJvQ==}
+  ra-core@5.15.3:
+    resolution: {integrity: sha512-C1j7HxBb7MqBBy/1f3f0yK6LNYoezpk6IG++Sps6RofFgNH2QBDQT0Rezgpx33XuQKLmHNhpv/5V4EyVB/Edcw==}
     peerDependencies:
       '@tanstack/react-query': ^5.83.0
       react: ^18.0.0 || ^19.0.0
@@ -1204,7 +1204,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  ra-core@5.15.2(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.83.0(react@18.3.1))(react-router-dom@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
+  ra-core@5.15.3(@tanstack/react-query@5.90.10(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react-hook-form@7.83.0(react@18.3.1))(react-router-dom@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-router@7.18.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1):
     dependencies:
       '@tanstack/react-query': 5.90.10(react@18.3.1)
       date-fns: 3.6.0
