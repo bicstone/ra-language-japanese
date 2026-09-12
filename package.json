@@ -53,7 +53,7 @@
 	"sideEffects": false,
 	"type": "module",
 	"zshy": "./src/index.ts",
-	"packageManager": "pnpm@11.25.0",
+	"packageManager": "pnpm@12.3.4",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.cts",
 	"exports": {
