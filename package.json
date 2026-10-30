@@ -14,12 +14,12 @@
 	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "0.18.5",
-		"@biomejs/biome": "2.5.15",
+		"@biomejs/biome": "2.6.2",
 		"all-contributors-cli": "6.26.1",
 		"prettier": "3.9.10",
 		"publint": "0.3.25",
 		"typescript": "6.0.3",
-		"zshy": "0.8.0"
+		"zshy": "0.8.1"
 	},
 	"files": [
 		"LICENSE",
