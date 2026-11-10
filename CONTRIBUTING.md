@@ -9,7 +9,6 @@ This repository has adopted the [Contributor Covenant 2.1](https://www.contribut
 ## Make a Pull Request
 
 Pull Requests are always welcome, but please discuss larger changes via issue before your work.
-
 1. Fork the repository.
 1. Install the dependencies with pnpm. `pnpm install --frozen-lockfile`
 1. Create a new topic branch. `git checkout -b fix/topic`
